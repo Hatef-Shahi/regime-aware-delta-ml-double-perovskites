@@ -1,0 +1,6 @@
+n_unique_sets = 5
+set 1: n_ids=30 used_by=gate_al1, nogate_al1
+set 2: n_ids=30 used_by=gate_al2, nogate_al2
+set 3: n_ids=30 used_by=gate_al3, nogate_al3
+set 4: n_ids=30 used_by=gate_al4, nogate_al4
+set 5: n_ids=30 used_by=gate_al5, nogate_al5

@@ -1,0 +1,8 @@
+structure_id,bank_file,staged_name,status,copy_mode,split
+GLAZER:Mg2PbSeO6_Fm-3m.vasp,POSCAR_Mg2PbSeO6_Fm-3m.vasp,POSCAR_Mg2PbSeO6_Fm-3m.vasp,STAGED,copy,train
+GLAZER:Be2AsInO6_Fm-3m.vasp,POSCAR_Be2AsInO6_Fm-3m.vasp,POSCAR_Be2AsInO6_Fm-3m.vasp,STAGED,copy,train
+MP:mp-izh,POSCAR_Sr2GaSbO6_Fm-3m_mp-izh.vasp,POSCAR_Sr2GaSbO6_Fm-3m_mp-izh.vasp,STAGED,copy,train
+MP:mp-bfbct,POSCAR_Ba2BiSbO6_Fm-3m_mp-bfbct.vasp,POSCAR_Ba2BiSbO6_Fm-3m_mp-bfbct.vasp,STAGED,copy,train
+MP:mp-dikcl,POSCAR_Sr2BiSbO6_Fm-3m_mp-dikcl.vasp,POSCAR_Sr2BiSbO6_Fm-3m_mp-dikcl.vasp,STAGED,copy,train
+MP:mp-bcdi,POSCAR_Sr2CdWO6_P2_1_c_mp-bcdi.vasp,POSCAR_Sr2CdWO6_P2_1_c_mp-bcdi.vasp,STAGED,copy,train
+GLAZER:Ca2TaInO6_mp-crcbn.vasp,POSCAR_Ca2TaInO6_mp-crcbn.vasp,POSCAR_Ca2TaInO6_mp-crcbn.vasp,STAGED,copy,train

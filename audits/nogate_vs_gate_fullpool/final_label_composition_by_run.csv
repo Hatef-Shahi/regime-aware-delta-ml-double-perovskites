@@ -1,0 +1,11 @@
+method,run,ledger_file,n_train_nonval,n_train_baseline_zbg,n_train_zbg_true_metal,n_train_zbg_rescued_nonmetal,n_train_non_zbg,n_val_ids
+gate_AL,al1,/home/hatef/Desktop/Final-thesis-plots/experiments/paper-runs/delta_kg2_m6_q035_theta016_dosON/al1/Seed_labels_cycle23.updated.csv,238,69,41,28,169,30
+gate_AL,al2,/home/hatef/Desktop/Final-thesis-plots/experiments/paper-runs/delta_kg2_m6_q035_theta016_dosON/al2/Seed_labels_cycle23.updated.csv,238,72,43,29,166,30
+gate_AL,al3,/home/hatef/Desktop/Final-thesis-plots/experiments/paper-runs/delta_kg2_m6_q035_theta016_dosON/al3/Seed_labels_cycle23.updated.csv,238,71,39,32,167,30
+gate_AL,al4,/home/hatef/Desktop/Final-thesis-plots/experiments/paper-runs/delta_kg2_m6_q035_theta016_dosON/al4/Seed_labels_cycle23.updated.csv,238,73,37,36,165,30
+gate_AL,al5,/home/hatef/Desktop/Final-thesis-plots/experiments/paper-runs/delta_kg2_m6_q035_theta016_dosON/al5/Seed_labels_cycle23.updated.csv,238,65,38,27,173,30
+nogate_fullpool_AL,al1,/home/hatef/Desktop/Final-thesis-plots/experiments/paper-runs/nogate_unified_delta_fullpool/al1/Seed_labels_cycle23.updated.csv,238,62,31,31,176,30
+nogate_fullpool_AL,al2,/home/hatef/Desktop/Final-thesis-plots/experiments/paper-runs/nogate_unified_delta_fullpool/al2/Seed_labels_cycle23.updated.csv,238,63,31,32,175,30
+nogate_fullpool_AL,al3,/home/hatef/Desktop/Final-thesis-plots/experiments/paper-runs/nogate_unified_delta_fullpool/al3/Seed_labels_cycle23.updated.csv,238,70,37,33,168,30
+nogate_fullpool_AL,al4,/home/hatef/Desktop/Final-thesis-plots/experiments/paper-runs/nogate_unified_delta_fullpool/al4/Seed_labels_cycle23.updated.csv,238,64,36,28,174,30
+nogate_fullpool_AL,al5,/home/hatef/Desktop/Final-thesis-plots/experiments/paper-runs/nogate_unified_delta_fullpool/al5/Seed_labels_cycle23.updated.csv,238,72,43,29,166,30

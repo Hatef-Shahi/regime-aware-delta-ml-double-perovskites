@@ -1,0 +1,16 @@
+replicate,comparison,n_gate,n_other,matched,only_in_gate,only_in_other
+1,gate_vs_nogate,30,30,True,0,0
+1,gate_vs_random,30,30,True,0,0
+1,gate_vs_direct,30,30,True,0,0
+2,gate_vs_nogate,30,30,True,0,0
+2,gate_vs_random,30,30,True,0,0
+2,gate_vs_direct,30,30,True,0,0
+3,gate_vs_nogate,30,30,True,0,0
+3,gate_vs_random,30,30,True,0,0
+3,gate_vs_direct,30,30,True,0,0
+4,gate_vs_nogate,30,30,True,0,0
+4,gate_vs_random,30,30,True,0,0
+4,gate_vs_direct,30,30,True,0,0
+5,gate_vs_nogate,30,30,True,0,0
+5,gate_vs_random,30,30,True,0,0
+5,gate_vs_direct,30,30,True,0,0

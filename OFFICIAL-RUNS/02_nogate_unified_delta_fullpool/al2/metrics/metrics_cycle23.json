@@ -1,0 +1,52 @@
+{
+  "acquisition": {
+    "alpha_rho": 1.0,
+    "beta_iso": 1.0,
+    "full_pool": true,
+    "k_gate": 0,
+    "k_reg": 7,
+    "selected_pbe0": 2,
+    "w_mad": 0.4,
+    "w_sig": 2.0,
+    "w_ureg": 0.05
+  },
+  "cycle": 23,
+  "end2end": {
+    "val_hse": {
+      "MAE": 0.3950352090038783,
+      "R2": 0.8433394396593883,
+      "RMSE": 0.5448809807613751,
+      "n": 30
+    }
+  },
+  "gate": {
+    "disabled": true,
+    "note": "No gate classifier was trained; no hard routing was applied."
+  },
+  "mode": "unified_nogate_delta_gpr",
+  "nogate_zbg_decision": {
+    "f1": 0.42857142857142855,
+    "fn": 0,
+    "fp": 8,
+    "n": 11,
+    "precision": 0.2727272727272727,
+    "recall": 1.0,
+    "tn": 0,
+    "tp": 3
+  },
+  "stageB": {
+    "reg_train_mode": "unified_delta_all_finite_pbe",
+    "val_all_delta": {
+      "MAE": 0.3950352090038782,
+      "R2": 0.16665717503012867,
+      "RMSE": 0.5448809807613751,
+      "n": 30
+    },
+    "val_nonmetal_delta": {
+      "MAE": 0.22871317417852208,
+      "R2": -0.03420593692979934,
+      "RMSE": 0.30986981879024833,
+      "n": 19
+    }
+  }
+}

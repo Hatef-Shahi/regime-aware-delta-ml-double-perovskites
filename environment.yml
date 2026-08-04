@@ -1,0 +1,11 @@
+name: delta-ml-al
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy=1.24.4
+  - pandas=1.5.3
+  - scikit-learn=1.3.2
+  - scipy
+  - matplotlib
+  - joblib

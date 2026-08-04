@@ -1,0 +1,251 @@
+method,run,cycle,n_selected,n_selected_pbe_bandgap_zero,cum_selected,cum_selected_pbe_bandgap_zero
+Gate-aware AL,al1,0,7,2,7,2
+Gate-aware AL,al1,1,7,2,14,4
+Gate-aware AL,al1,2,7,2,21,6
+Gate-aware AL,al1,3,7,2,28,8
+Gate-aware AL,al1,4,7,2,35,10
+Gate-aware AL,al1,5,7,2,42,12
+Gate-aware AL,al1,6,7,2,49,14
+Gate-aware AL,al1,7,7,2,56,16
+Gate-aware AL,al1,8,7,2,63,18
+Gate-aware AL,al1,9,7,2,70,20
+Gate-aware AL,al1,10,7,2,77,22
+Gate-aware AL,al1,11,7,2,84,24
+Gate-aware AL,al1,12,7,2,91,26
+Gate-aware AL,al1,13,7,2,98,28
+Gate-aware AL,al1,14,7,2,105,30
+Gate-aware AL,al1,15,7,2,112,32
+Gate-aware AL,al1,16,7,2,119,34
+Gate-aware AL,al1,17,7,2,126,36
+Gate-aware AL,al1,18,7,2,133,38
+Gate-aware AL,al1,19,7,2,140,40
+Gate-aware AL,al1,20,7,2,147,42
+Gate-aware AL,al1,21,7,2,154,44
+Gate-aware AL,al1,22,7,2,161,46
+Gate-aware AL,al1,23,7,2,168,48
+Gate-aware AL,al1,24,7,2,175,50
+Gate-aware AL,al2,0,7,2,7,2
+Gate-aware AL,al2,1,7,2,14,4
+Gate-aware AL,al2,2,7,2,21,6
+Gate-aware AL,al2,3,7,2,28,8
+Gate-aware AL,al2,4,7,2,35,10
+Gate-aware AL,al2,5,7,2,42,12
+Gate-aware AL,al2,6,7,2,49,14
+Gate-aware AL,al2,7,7,2,56,16
+Gate-aware AL,al2,8,7,2,63,18
+Gate-aware AL,al2,9,7,2,70,20
+Gate-aware AL,al2,10,7,2,77,22
+Gate-aware AL,al2,11,7,2,84,24
+Gate-aware AL,al2,12,7,2,91,26
+Gate-aware AL,al2,13,7,2,98,28
+Gate-aware AL,al2,14,7,2,105,30
+Gate-aware AL,al2,15,7,2,112,32
+Gate-aware AL,al2,16,7,2,119,34
+Gate-aware AL,al2,17,7,2,126,36
+Gate-aware AL,al2,18,7,2,133,38
+Gate-aware AL,al2,19,7,2,140,40
+Gate-aware AL,al2,20,7,2,147,42
+Gate-aware AL,al2,21,7,2,154,44
+Gate-aware AL,al2,22,7,2,161,46
+Gate-aware AL,al2,23,7,2,168,48
+Gate-aware AL,al2,24,7,2,175,50
+Gate-aware AL,al3,0,7,2,7,2
+Gate-aware AL,al3,1,7,2,14,4
+Gate-aware AL,al3,2,7,2,21,6
+Gate-aware AL,al3,3,7,2,28,8
+Gate-aware AL,al3,4,7,2,35,10
+Gate-aware AL,al3,5,7,2,42,12
+Gate-aware AL,al3,6,7,2,49,14
+Gate-aware AL,al3,7,7,2,56,16
+Gate-aware AL,al3,8,7,2,63,18
+Gate-aware AL,al3,9,7,2,70,20
+Gate-aware AL,al3,10,7,2,77,22
+Gate-aware AL,al3,11,7,2,84,24
+Gate-aware AL,al3,12,7,2,91,26
+Gate-aware AL,al3,13,7,2,98,28
+Gate-aware AL,al3,14,7,2,105,30
+Gate-aware AL,al3,15,7,2,112,32
+Gate-aware AL,al3,16,7,2,119,34
+Gate-aware AL,al3,17,7,2,126,36
+Gate-aware AL,al3,18,7,2,133,38
+Gate-aware AL,al3,19,7,2,140,40
+Gate-aware AL,al3,20,7,2,147,42
+Gate-aware AL,al3,21,7,2,154,44
+Gate-aware AL,al3,22,7,2,161,46
+Gate-aware AL,al3,23,7,2,168,48
+Gate-aware AL,al3,24,7,2,175,50
+Gate-aware AL,al4,0,7,2,7,2
+Gate-aware AL,al4,1,7,2,14,4
+Gate-aware AL,al4,2,7,2,21,6
+Gate-aware AL,al4,3,7,2,28,8
+Gate-aware AL,al4,4,7,2,35,10
+Gate-aware AL,al4,5,7,2,42,12
+Gate-aware AL,al4,6,7,2,49,14
+Gate-aware AL,al4,7,7,2,56,16
+Gate-aware AL,al4,8,7,2,63,18
+Gate-aware AL,al4,9,7,2,70,20
+Gate-aware AL,al4,10,7,2,77,22
+Gate-aware AL,al4,11,7,2,84,24
+Gate-aware AL,al4,12,7,2,91,26
+Gate-aware AL,al4,13,7,2,98,28
+Gate-aware AL,al4,14,7,2,105,30
+Gate-aware AL,al4,15,7,2,112,32
+Gate-aware AL,al4,16,7,2,119,34
+Gate-aware AL,al4,17,7,2,126,36
+Gate-aware AL,al4,18,7,2,133,38
+Gate-aware AL,al4,19,7,2,140,40
+Gate-aware AL,al4,20,7,2,147,42
+Gate-aware AL,al4,21,7,2,154,44
+Gate-aware AL,al4,22,7,2,161,46
+Gate-aware AL,al4,23,7,2,168,48
+Gate-aware AL,al4,24,7,2,175,50
+Gate-aware AL,al5,0,7,2,7,2
+Gate-aware AL,al5,1,7,2,14,4
+Gate-aware AL,al5,2,7,2,21,6
+Gate-aware AL,al5,3,7,2,28,8
+Gate-aware AL,al5,4,7,2,35,10
+Gate-aware AL,al5,5,7,2,42,12
+Gate-aware AL,al5,6,7,2,49,14
+Gate-aware AL,al5,7,7,2,56,16
+Gate-aware AL,al5,8,7,2,63,18
+Gate-aware AL,al5,9,7,2,70,20
+Gate-aware AL,al5,10,7,2,77,22
+Gate-aware AL,al5,11,7,2,84,24
+Gate-aware AL,al5,12,7,2,91,26
+Gate-aware AL,al5,13,7,2,98,28
+Gate-aware AL,al5,14,7,2,105,30
+Gate-aware AL,al5,15,7,2,112,32
+Gate-aware AL,al5,16,7,2,119,34
+Gate-aware AL,al5,17,7,2,126,36
+Gate-aware AL,al5,18,7,2,133,38
+Gate-aware AL,al5,19,7,2,140,40
+Gate-aware AL,al5,20,7,2,147,42
+Gate-aware AL,al5,21,7,2,154,44
+Gate-aware AL,al5,22,7,2,161,46
+Gate-aware AL,al5,23,7,2,168,48
+Gate-aware AL,al5,24,7,2,175,50
+No-gate full-pool AL,al1,0,7,5,7,5
+No-gate full-pool AL,al1,1,7,0,14,5
+No-gate full-pool AL,al1,2,7,1,21,6
+No-gate full-pool AL,al1,3,7,1,28,7
+No-gate full-pool AL,al1,4,7,3,35,10
+No-gate full-pool AL,al1,5,7,2,42,12
+No-gate full-pool AL,al1,6,7,3,49,15
+No-gate full-pool AL,al1,7,7,2,56,17
+No-gate full-pool AL,al1,8,7,1,63,18
+No-gate full-pool AL,al1,9,7,2,70,20
+No-gate full-pool AL,al1,10,7,0,77,20
+No-gate full-pool AL,al1,11,7,0,84,20
+No-gate full-pool AL,al1,12,7,1,91,21
+No-gate full-pool AL,al1,13,7,1,98,22
+No-gate full-pool AL,al1,14,7,3,105,25
+No-gate full-pool AL,al1,15,7,1,112,26
+No-gate full-pool AL,al1,16,7,2,119,28
+No-gate full-pool AL,al1,17,7,2,126,30
+No-gate full-pool AL,al1,18,7,0,133,30
+No-gate full-pool AL,al1,19,7,0,140,30
+No-gate full-pool AL,al1,20,7,1,147,31
+No-gate full-pool AL,al1,21,7,3,154,34
+No-gate full-pool AL,al1,22,7,4,161,38
+No-gate full-pool AL,al1,23,7,2,168,40
+No-gate full-pool AL,al1,24,7,4,175,44
+No-gate full-pool AL,al2,0,7,3,7,3
+No-gate full-pool AL,al2,1,7,0,14,3
+No-gate full-pool AL,al2,2,7,1,21,4
+No-gate full-pool AL,al2,3,7,1,28,5
+No-gate full-pool AL,al2,4,7,1,35,6
+No-gate full-pool AL,al2,5,7,1,42,7
+No-gate full-pool AL,al2,6,7,4,49,11
+No-gate full-pool AL,al2,7,7,0,56,11
+No-gate full-pool AL,al2,8,7,0,63,11
+No-gate full-pool AL,al2,9,7,0,70,11
+No-gate full-pool AL,al2,10,7,2,77,13
+No-gate full-pool AL,al2,11,7,0,84,13
+No-gate full-pool AL,al2,12,7,2,91,15
+No-gate full-pool AL,al2,13,7,2,98,17
+No-gate full-pool AL,al2,14,7,2,105,19
+No-gate full-pool AL,al2,15,7,0,112,19
+No-gate full-pool AL,al2,16,7,1,119,20
+No-gate full-pool AL,al2,17,7,1,126,21
+No-gate full-pool AL,al2,18,7,3,133,24
+No-gate full-pool AL,al2,19,7,2,140,26
+No-gate full-pool AL,al2,20,7,2,147,28
+No-gate full-pool AL,al2,21,7,5,154,33
+No-gate full-pool AL,al2,22,7,4,161,37
+No-gate full-pool AL,al2,23,7,2,168,39
+No-gate full-pool AL,al2,24,7,3,175,42
+No-gate full-pool AL,al3,0,7,2,7,2
+No-gate full-pool AL,al3,1,7,3,14,5
+No-gate full-pool AL,al3,2,7,0,21,5
+No-gate full-pool AL,al3,3,7,1,28,6
+No-gate full-pool AL,al3,4,7,2,35,8
+No-gate full-pool AL,al3,5,7,0,42,8
+No-gate full-pool AL,al3,6,7,1,49,9
+No-gate full-pool AL,al3,7,7,2,56,11
+No-gate full-pool AL,al3,8,7,0,63,11
+No-gate full-pool AL,al3,9,7,2,70,13
+No-gate full-pool AL,al3,10,7,4,77,17
+No-gate full-pool AL,al3,11,7,3,84,20
+No-gate full-pool AL,al3,12,7,1,91,21
+No-gate full-pool AL,al3,13,7,1,98,22
+No-gate full-pool AL,al3,14,7,3,105,25
+No-gate full-pool AL,al3,15,7,3,112,28
+No-gate full-pool AL,al3,16,7,1,119,29
+No-gate full-pool AL,al3,17,7,4,126,33
+No-gate full-pool AL,al3,18,7,1,133,34
+No-gate full-pool AL,al3,19,7,3,140,37
+No-gate full-pool AL,al3,20,7,3,147,40
+No-gate full-pool AL,al3,21,7,3,154,43
+No-gate full-pool AL,al3,22,7,0,161,43
+No-gate full-pool AL,al3,23,7,4,168,47
+No-gate full-pool AL,al3,24,7,4,175,51
+No-gate full-pool AL,al4,0,7,2,7,2
+No-gate full-pool AL,al4,1,7,2,14,4
+No-gate full-pool AL,al4,2,7,1,21,5
+No-gate full-pool AL,al4,3,7,3,28,8
+No-gate full-pool AL,al4,4,7,1,35,9
+No-gate full-pool AL,al4,5,7,1,42,10
+No-gate full-pool AL,al4,6,7,0,49,10
+No-gate full-pool AL,al4,7,7,1,56,11
+No-gate full-pool AL,al4,8,7,2,63,13
+No-gate full-pool AL,al4,9,7,2,70,15
+No-gate full-pool AL,al4,10,7,2,77,17
+No-gate full-pool AL,al4,11,7,3,84,20
+No-gate full-pool AL,al4,12,7,1,91,21
+No-gate full-pool AL,al4,13,7,1,98,22
+No-gate full-pool AL,al4,14,7,2,105,24
+No-gate full-pool AL,al4,15,7,1,112,25
+No-gate full-pool AL,al4,16,7,4,119,29
+No-gate full-pool AL,al4,17,7,1,126,30
+No-gate full-pool AL,al4,18,7,3,133,33
+No-gate full-pool AL,al4,19,7,0,140,33
+No-gate full-pool AL,al4,20,7,1,147,34
+No-gate full-pool AL,al4,21,7,1,154,35
+No-gate full-pool AL,al4,22,7,2,161,37
+No-gate full-pool AL,al4,23,7,2,168,39
+No-gate full-pool AL,al4,24,7,1,175,40
+No-gate full-pool AL,al5,0,7,2,7,2
+No-gate full-pool AL,al5,1,7,1,14,3
+No-gate full-pool AL,al5,2,7,5,21,8
+No-gate full-pool AL,al5,3,7,3,28,11
+No-gate full-pool AL,al5,4,7,1,35,12
+No-gate full-pool AL,al5,5,7,2,42,14
+No-gate full-pool AL,al5,6,7,2,49,16
+No-gate full-pool AL,al5,7,7,1,56,17
+No-gate full-pool AL,al5,8,7,3,63,20
+No-gate full-pool AL,al5,9,7,2,70,22
+No-gate full-pool AL,al5,10,7,6,77,28
+No-gate full-pool AL,al5,11,7,5,84,33
+No-gate full-pool AL,al5,12,7,2,91,35
+No-gate full-pool AL,al5,13,7,4,98,39
+No-gate full-pool AL,al5,14,7,2,105,41
+No-gate full-pool AL,al5,15,7,3,112,44
+No-gate full-pool AL,al5,16,7,2,119,46
+No-gate full-pool AL,al5,17,7,0,126,46
+No-gate full-pool AL,al5,18,7,2,133,48
+No-gate full-pool AL,al5,19,7,2,140,50
+No-gate full-pool AL,al5,20,7,1,147,51
+No-gate full-pool AL,al5,21,7,0,154,51
+No-gate full-pool AL,al5,22,7,2,161,53
+No-gate full-pool AL,al5,23,7,1,168,54
+No-gate full-pool AL,al5,24,7,2,175,56

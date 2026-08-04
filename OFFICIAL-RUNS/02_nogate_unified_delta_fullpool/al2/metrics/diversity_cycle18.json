@@ -1,0 +1,12 @@
+{
+  "cycle": 18,
+  "k_gate": 0,
+  "k_reg": 7,
+  "mean_dist": 14.50285487772005,
+  "median_dist": 14.560995966255135,
+  "min_dist": 10.922450039138374,
+  "mode": "unified_nogate_delta_gpr",
+  "n": 7,
+  "n_selected": 7,
+  "selected_pbe0": 3
+}

@@ -1,0 +1,88 @@
+{
+  "inputs": {
+    "mp_csv": "/home/hatef/Desktop/thesis/Universe/MP_nonmagnetic_full_list.csv",
+    "glazer_csv": "/home/hatef/Desktop/thesis/Universe/Glazer_full_pbe_nonmagnetic.csv",
+    "mp_csv_sha1": "81a623b414f4b35552a676107205844b4cdd1875",
+    "glazer_csv_sha1": "80f3cd35a1103dbbc4b844690a690bfa8764677d",
+    "bank_dir": "/home/hatef/Desktop/thesis/Universe/poscars_collected"
+  },
+  "params": {
+    "gap0_eps": 1e-08,
+    "split_salt": "ALv3_day0",
+    "n_test": 30,
+    "n_seed": 30,
+    "pbe_bins_test": 3,
+    "pbe_bins_seed": 4,
+    "test_bpair_cap": 2,
+    "seed_bpair_cap": 2,
+    "glazer_useu_mode": "ignore",
+    "k_density_not_used_here": "kNN density is used later in AL; day-0 only builds U/T/seed/pool"
+  },
+  "counts": {
+    "n_total_raw": 502,
+    "n_total_canonical": 502,
+    "n_universe_U": 502,
+    "by_source_U": {
+      "GLAZER": 357,
+      "MP": 145
+    },
+    "n_dropped": 0,
+    "n_test": 30,
+    "n_seed": 30,
+    "n_pool": 442,
+    "n_missing_structure_files": 0
+  },
+  "missingness_summary_U_by_source": {
+    "GLAZER": {
+      "formula": 0.0,
+      "spg_symbol": 0.0,
+      "spg_number": 0.0,
+      "pbe_gap": 0.0,
+      "efermi": 0.0,
+      "tolerance_factor": 0.0,
+      "rA": 0.0,
+      "rB1": 0.0,
+      "rB2": 0.0,
+      "A_element": 0.0,
+      "B1_element": 0.0,
+      "B2_element": 0.0,
+      "volume_per_atom": 0.0,
+      "density": 0.0
+    },
+    "MP": {
+      "formula": 0.0,
+      "spg_symbol": 0.0,
+      "spg_number": 0.0,
+      "pbe_gap": 0.0,
+      "efermi": 0.0,
+      "tolerance_factor": 0.0,
+      "rA": 0.0,
+      "rB1": 0.0,
+      "rB2": 0.0,
+      "A_element": 0.0,
+      "B1_element": 0.0,
+      "B2_element": 0.0,
+      "volume_per_atom": 0.0,
+      "density": 0.0
+    }
+  },
+  "environment": {
+    "python": "3.9.25",
+    "platform": "Linux-6.14.0-37-generic-x86_64-with-glibc2.39",
+    "pymatgen_available_for_spg_number": true
+  },
+  "outputs": [
+    "universe_master.csv",
+    "universe_master_raw.csv",
+    "universe_ml.csv",
+    "pool_ml.csv",
+    "test_ids.csv",
+    "seed_ids.csv",
+    "pool_ids.csv",
+    "seed_labels_template.csv",
+    "test_labels_template.csv",
+    "dropped_universe_rows.csv",
+    "missing_structure_files.csv",
+    "universe_manifest.json"
+  ]
+}

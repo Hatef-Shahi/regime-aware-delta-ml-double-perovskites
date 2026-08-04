@@ -1,0 +1,5 @@
+,n_train_nonval,n_train_nonval,n_train_nonval,n_train_nonval,n_train_baseline_zbg,n_train_baseline_zbg,n_train_baseline_zbg,n_train_baseline_zbg,n_train_zbg_true_metal,n_train_zbg_true_metal,n_train_zbg_true_metal,n_train_zbg_true_metal,n_train_zbg_rescued_nonmetal,n_train_zbg_rescued_nonmetal,n_train_zbg_rescued_nonmetal,n_train_zbg_rescued_nonmetal,n_train_non_zbg,n_train_non_zbg,n_train_non_zbg,n_train_non_zbg
+,mean,std,min,max,mean,std,min,max,mean,std,min,max,mean,std,min,max,mean,std,min,max
+method,,,,,,,,,,,,,,,,,,,,
+gate_AL,238.0,0.0,238,238,70.0,3.1622776601683786,65,73,39.6,2.4083189157584592,37,43,30.4,3.6469165057620936,27,36,168.0,3.16227766016838,165,173
+nogate_fullpool_AL,238.0,0.0,238,238,66.2,4.4944410108488455,62,72,35.6,4.979959839195493,31,43,30.6,2.0736441353327724,28,33,171.8,4.494441010848849,166,176
