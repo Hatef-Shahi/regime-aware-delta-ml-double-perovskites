@@ -329,7 +329,7 @@ def df_to_md_table(df: pd.DataFrame) -> str:
         for c in headers:
             v = row[c]
             if isinstance(v, (float, np.floating)):
-                vals.append(f"{float(v):.4f}" if np.isfinite(float(v)) else "—")
+                vals.append(f"{float(v):.4f}" if np.isfinite(float(v)) else "n/a")
             else:
                 vals.append(str(v))
         lines.append("| " + " | ".join(vals) + " |")

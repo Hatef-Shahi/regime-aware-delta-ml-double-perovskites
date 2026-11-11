@@ -1,0 +1,10 @@
+quantity,value
+top5_share,0.5398580797023397
+top10_share,0.6688422764442861
+Bsite_en_ea_ie_share,0.5892006804720961
+spearman_gpr_rf,0.17124159956111992
+top10_overlap_gpr_rf,3.0
+n_features,107.0
+ard_ge_900,65.0
+ard_lt_100,28.0
+ard_lt_10,15.0

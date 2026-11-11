@@ -1,8 +1,8 @@
 structure_id,bank_file,staged_name,status,copy_mode,split
-GLAZER:Ba2AuTaO6_Fm-3m.vasp,POSCAR_Ba2AuTaO6_Fm-3m.vasp,POSCAR_Ba2AuTaO6_Fm-3m.vasp,STAGED,copy,train
-GLAZER:Ca2AuTaO6_P2_1-c.vasp,POSCAR_Ca2AuTaO6_P2_1-c.vasp,POSCAR_Ca2AuTaO6_P2_1-c.vasp,STAGED,copy,train
-GLAZER:Mg2InSbO6_I4-m.vasp,POSCAR_Mg2InSbO6_I4-m.vasp,POSCAR_Mg2InSbO6_I4-m.vasp,STAGED,copy,train
-GLAZER:Mg2GaSbO6_Fm-3m.vasp,POSCAR_Mg2GaSbO6_Fm-3m.vasp,POSCAR_Mg2GaSbO6_Fm-3m.vasp,STAGED,copy,train
-GLAZER:Cd2PdTiO6_R-3.vasp,POSCAR_Cd2PdTiO6_R-3.vasp,POSCAR_Cd2PdTiO6_R-3.vasp,STAGED,copy,train
-GLAZER:Mg2AlSbO6_Fm-3m.vasp,POSCAR_Mg2AlSbO6_Fm-3m.vasp,POSCAR_Mg2AlSbO6_Fm-3m.vasp,STAGED,copy,train
-GLAZER:Be2InSbO6_I4-m.vasp,POSCAR_Be2InSbO6_I4-m.vasp,POSCAR_Be2InSbO6_I4-m.vasp,STAGED,copy,train
+GLAZER:Cu2SiTeO6_R-3.vasp,POSCAR_Cu2SiTeO6_R-3.vasp,POSCAR_Cu2SiTeO6_R-3.vasp,STAGED,copy,train
+GLAZER:Li2AuTcO6_P2_1-c.vasp,POSCAR_Li2AuTcO6_P2_1-c.vasp,POSCAR_Li2AuTcO6_P2_1-c.vasp,STAGED,copy,train
+GLAZER:Sr2SeSnO6_Fm-3m.vasp,POSCAR_Sr2SeSnO6_Fm-3m.vasp,POSCAR_Sr2SeSnO6_Fm-3m.vasp,STAGED,copy,train
+GLAZER:Ca2SeSnO6_Fm-3m.vasp,POSCAR_Ca2SeSnO6_Fm-3m.vasp,POSCAR_Ca2SeSnO6_Fm-3m.vasp,STAGED,copy,train
+MP:mp-biee,POSCAR_Ba2TaBiO6_R-3_mp-biee.vasp,POSCAR_Ba2TaBiO6_R-3_mp-biee.vasp,STAGED,copy,train
+GLAZER:Ca2InTaO6_I4-m.vasp,POSCAR_Ca2InTaO6_I4-m.vasp,POSCAR_Ca2InTaO6_I4-m.vasp,STAGED,copy,train
+GLAZER:Be2MgSeO6_R-3.vasp,POSCAR_Be2MgSeO6_R-3.vasp,POSCAR_Be2MgSeO6_R-3.vasp,STAGED,copy,train

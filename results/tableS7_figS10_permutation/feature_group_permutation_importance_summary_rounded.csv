@@ -1,0 +1,11 @@
+branch,metric,feature_group,importance_mean,importance_sd_across_runs,n_features,n_eval,baseline_metric
+Gate classifier,AUC decrease,DOS near Fermi level,0.0,0.0,7.0,7.0,0.96
+Gate classifier,AUC decrease,Elemental chemistry,0.198,0.112774,42.0,7.0,0.96
+Gate classifier,AUC decrease,Global structure / symmetry,0.0044,0.028334,10.0,7.0,0.96
+Gate classifier,AUC decrease,Local coordination / distortion,0.1348,0.077506,29.0,7.0,0.96
+Gate classifier,AUC decrease,Oxidation / ionic-radius descriptors,0.1232,0.140639,24.0,7.0,0.96
+Δ-regression,Δ-MAE increase / eV,Baseline PBE electronic,7.7e-05,0.000127,2.0,23.0,0.145286
+Δ-regression,Δ-MAE increase / eV,Elemental chemistry,0.102151,0.024406,42.0,23.0,0.145286
+Δ-regression,Δ-MAE increase / eV,Global structure / symmetry,0.006943,0.008014,10.0,23.0,0.145286
+Δ-regression,Δ-MAE increase / eV,Local coordination / distortion,-0.004732,0.005825,29.0,23.0,0.145286
+Δ-regression,Δ-MAE increase / eV,Oxidation / ionic-radius descriptors,0.122986,0.030175,24.0,23.0,0.145286

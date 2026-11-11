@@ -4,7 +4,7 @@ MP:mp-diprv,5.026066999999999,3.4801040000000003,pbe:band_GGA/Band_gap.log,SUCCE
 MP:mp-dilgi,5.112858999999999,3.578608,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 MP:mp-diras,3.773659,2.349902,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Sr2HgSeO6_I4-m.vasp,1.0184429999999998,0.0438,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
-MP:mp-crxdx,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,amp2_metal_marker=difficult for band gap to open,1,hse:amp2log_metal_marker
+MP:mp-crxdx,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,dft_metal_marker=difficult for band gap to open,1,hse:workflow_metal_marker
 MP:mp-dijwx,0.8260319999999999,0.0,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Na2GeWO6_Fm-3m.vasp,3.830476,2.533183,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Sr2InTaO6_I4-m.vasp,5.419037,3.863012,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
@@ -22,7 +22,7 @@ MP:mp-cjlhy,4.238972,2.9570829999999995,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse
 GLAZER:Tl2SbTaO6_Fm-3m.vasp,1.445449,0.429678,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Ba2InNbO6_Fm-3m.vasp,4.830883999999999,3.370607,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:K2HfWO6_I4-m.vasp,3.116254,1.91447,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
-GLAZER:Ca2RhVO6_I4-m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,amp2_metal_marker=difficult for band gap to open,1,hse:amp2log_metal_marker
+GLAZER:Ca2RhVO6_I4-m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,dft_metal_marker=difficult for band gap to open,1,hse:workflow_metal_marker
 MP:mp-bbzb,4.278487999999999,2.940734,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Sr2HfTiO6_Fm-3m.vasp,3.792101,2.3657410000000003,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Sr2GaBiO6_mp-diris.vasp,0.2454940000000001,0.0,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
@@ -32,10 +32,10 @@ MP:mp-cqrrq,3.294382,2.123781,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GG
 MP:mp-dikto,1.0319400000000003,0.5757199999999996,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 MP:mp-bbwf,3.1692029999999995,1.9165120000000004,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 MP:mp-bffop,4.170484,2.8193490000000003,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
-GLAZER:Ca2IrRuO6_I4-m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,amp2_metal_marker=band gap cannot be opened,1,hse:amp2log_metal_marker
+GLAZER:Ca2IrRuO6_I4-m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,dft_metal_marker=band gap cannot be opened,1,hse:workflow_metal_marker
 MP:mp-cqqej,3.179974,1.952642,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 MP:mp-crxdm,0.2409620000000001,0.0,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
-GLAZER:Be2CoNbO6_Fm-3m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,amp2_metal_marker=difficult for band gap to open,1,hse:amp2log_metal_marker
+GLAZER:Be2CoNbO6_Fm-3m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,dft_metal_marker=difficult for band gap to open,1,hse:workflow_metal_marker
 MP:mp-dikmg,4.972034,3.483765,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 MP:mp-bfkwm,3.700894,2.662775,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 MP:mp-cqpof,4.716983,3.284218,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
@@ -54,7 +54,7 @@ GLAZER:Ba2AlNbO6_Fm-3m.vasp,4.177395,2.802007,pbe:band_GGA/Band_gap.log,SUCCESS,
 GLAZER:Cd2RhVO6_R-3.vasp,1.44294,0.3731440000000008,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 MP:mp-cqqcv,4.230374,2.8285750000000003,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Sr2AlNbO6_Fm-3m.vasp,4.242647,2.839267,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
-GLAZER:Ca2IrTeO6_I4-m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,amp2_metal_marker=band gap cannot be opened,1,hse:amp2log_metal_marker
+GLAZER:Ca2IrTeO6_I4-m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,dft_metal_marker=band gap cannot be opened,1,hse:workflow_metal_marker
 MP:mp-dikzj,1.3466319999999996,0.5764659999999999,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Na2NbSbO6_Fm-3m.vasp,4.056113,2.516543,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Ca2NbRhO6_I4-m.vasp,2.305426,0.7507329999999994,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
@@ -74,7 +74,7 @@ GLAZER:Na2AlTcO6_Fm-3m.vasp,1.466373,0.4949020000000002,pbe:band_GGA/Band_gap.lo
 MP:mp-bfbct,2.516245,1.642956,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Sr2SnWO6_Fm-3m.vasp,0.719379,0.0194159999999996,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Ba2SiZrO6_Fm-3m.vasp,5.1008960000000005,3.535137,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
-GLAZER:Be2HfZrO6_Fm-3m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,amp2_metal_marker=difficult for band gap to open,1,hse:amp2log_metal_marker
+GLAZER:Be2HfZrO6_Fm-3m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,dft_metal_marker=difficult for band gap to open,1,hse:workflow_metal_marker
 GLAZER:Na2GaTcO6_Fm-3m.vasp,1.80616,0.8161419999999997,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:K2RhTcO6_Fm-3m.vasp,1.3309959999999998,0.0,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Ba2HfPdO6_Fm-3m.vasp,2.6917300000000006,1.1443439999999998,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
@@ -93,29 +93,29 @@ MP:mp-dinqq,1.6413969999999996,0.7849349999999999,pbe:band_GGA/Band_gap.log,SUCC
 GLAZER:Be2HgSeO6_I4-m.vasp,2.082564,0.5728310000000003,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Be2MgMoO6_R-3.vasp,3.194211,2.055861,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 MP:mp-cqqvg,2.013503,0.4635160000000002,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
-GLAZER:Li2ReRhO6_I4-m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,amp2_metal_marker=difficult for band gap to open,1,hse:amp2log_metal_marker
+GLAZER:Li2ReRhO6_I4-m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,dft_metal_marker=difficult for band gap to open,1,hse:workflow_metal_marker
 GLAZER:Sr2MoZnO6_I4-m.vasp,3.233149,2.08341,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 MP:mp-dioyc,2.6122190000000005,1.7058649999999993,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Be2MgWO6_R-3.vasp,4.337073,3.023511,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Na2MoZrO6_I4-m.vasp,2.4130830000000003,1.343721,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Na2TeWO6_Fm-3m.vasp,1.758839,0.9177680000000006,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Ba2BiNbO6_I4-m.vasp,3.168111,2.14439,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
-GLAZER:Be2BiSbO6_Fm-3m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,amp2_metal_marker=metallic band structure,1,hse:amp2log_metal_marker
+GLAZER:Be2BiSbO6_Fm-3m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,dft_metal_marker=metallic band structure,1,hse:workflow_metal_marker
 GLAZER:K2TeWO6_Fm-3m.vasp,2.140391,1.3049460000000002,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Ag2InTcO6_R-3.vasp,1.3349219999999995,0.5151570000000003,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
-GLAZER:Be2SeSnO6_Fm-3m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,amp2_metal_marker=metallic band structure,1,hse:amp2log_metal_marker
+GLAZER:Be2SeSnO6_Fm-3m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,dft_metal_marker=metallic band structure,1,hse:workflow_metal_marker
 GLAZER:Na2SeTeO6_I4-m.vasp,0.8267820000000001,0.5079970000000005,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Cd2BiSbO6_R-3.vasp,3.245217,2.1972250000000004,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
-GLAZER:Ba2InBiO6_mp-crxdx.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,amp2_metal_marker=difficult for band gap to open,1,hse:amp2log_metal_marker
+GLAZER:Ba2InBiO6_mp-crxdx.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,dft_metal_marker=difficult for band gap to open,1,hse:workflow_metal_marker
 GLAZER:Ca2MgMoO6_R-3.vasp,3.416132,2.243404,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Ba2GeHfO6_Fm-3m.vasp,5.178373,3.465353,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Cd2NbRhO6_R-3.vasp,2.578351,1.0784569999999998,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 MP:mp-izh,2.278223,0.6697570000000002,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
-GLAZER:Ba2HgSO6_Fm-3m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,amp2_metal_marker=difficult for band gap to open,1,hse:amp2log_metal_marker
+GLAZER:Ba2HgSO6_Fm-3m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,dft_metal_marker=difficult for band gap to open,1,hse:workflow_metal_marker
 GLAZER:Be2AlSbO6_Fm-3m.vasp,0.922472,0.0,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Sr2BiNbO6_I4-m.vasp,3.049806,2.022717,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Ag2TiWO6_I4-m.vasp,1.870651,0.8155890000000001,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
-GLAZER:Be2GeTeO6_Fm-3m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,amp2_metal_marker=difficult for band gap to open,1,hse:amp2log_metal_marker
+GLAZER:Be2GeTeO6_Fm-3m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,dft_metal_marker=difficult for band gap to open,1,hse:workflow_metal_marker
 GLAZER:Tl2RhTcO6_I4-m.vasp,0.0491779999999995,0.0,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Cd2PtZrO6_R-3.vasp,3.174169,1.567921,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Ca2PbWO6_I4-m.vasp,2.493186,1.589394,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
@@ -125,13 +125,13 @@ GLAZER:Be2GaVO6_Fm-3m.vasp,0.993127,0.0,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse
 GLAZER:Ba2PbWO6_I4-m.vasp,2.914393,1.945836,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Ca2SeSnO6_Fm-3m.vasp,1.5283490000000004,0.7923119999999999,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Ag2TaVO6_I4-m.vasp,1.303824,0.5262320000000003,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
-GLAZER:Be2PdPtO6_Fm-3m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,amp2_metal_marker=difficult for band gap to open,1,hse:amp2log_metal_marker
-GLAZER:Rb2AuReO6_I4-m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,amp2_metal_marker=difficult for band gap to open,1,hse:amp2log_metal_marker
+GLAZER:Be2PdPtO6_Fm-3m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,dft_metal_marker=difficult for band gap to open,1,hse:workflow_metal_marker
+GLAZER:Rb2AuReO6_I4-m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,dft_metal_marker=difficult for band gap to open,1,hse:workflow_metal_marker
 GLAZER:Be2CdWO6_R-3.vasp,4.125717,2.784381,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 MP:mp-dikjk,5.157671,3.637619,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Ba2PdZrO6_Fm-3m.vasp,2.621658,1.103135,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Ag2BiTcO6_I4-m.vasp,0.9992889999999996,0.3398000000000003,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
-GLAZER:Ca2GePdO6_Fm-3m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,amp2_metal_marker=difficult for band gap to open,1,hse:amp2log_metal_marker
+GLAZER:Ca2GePdO6_Fm-3m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,dft_metal_marker=difficult for band gap to open,1,hse:workflow_metal_marker
 GLAZER:Sr2GaNbO6_Fm-3m.vasp,4.597108,3.163598,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Ba2GeZrO6_I4-m.vasp,5.043491,3.367224,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Sr2InSbO6_I4-m.vasp,3.019852,1.5675910000000002,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
@@ -153,24 +153,24 @@ GLAZER:Be2GePdO6_Fm-3m.vasp,1.1005949999999998,0.0,pbe:band_GGA/Band_gap.log,SUC
 GLAZER:K2TaVO6_Fm-3m.vasp,1.563222,0.7263779999999997,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Be2HgSO6_I4-m.vasp,2.7741990000000003,1.047549,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 MP:mp-cjmjy,5.542133000000001,3.935406,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
-GLAZER:Cd2OsPdO6_R-3.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,amp2_metal_marker=difficult for band gap to open,1,hse:amp2log_metal_marker
+GLAZER:Cd2OsPdO6_R-3.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,dft_metal_marker=difficult for band gap to open,1,hse:workflow_metal_marker
 GLAZER:Sr2HfTeO6_I4-m.vasp,3.4468380000000005,2.388186,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Ca2HfTeO6_I4-m.vasp,3.349248,2.280558,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 MP:mp-cqrri,2.651441,1.444514,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Na2SZrO6_Fm-3m.vasp,4.377871999999999,2.580964,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
-GLAZER:Ba2GePdO6_Fm-3m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,amp2_metal_marker=difficult for band gap to open,1,hse:amp2log_metal_marker
+GLAZER:Ba2GePdO6_Fm-3m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,dft_metal_marker=difficult for band gap to open,1,hse:workflow_metal_marker
 GLAZER:Mg2PdSiO6_I4-m.vasp,2.331116,0.8197739999999998,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Ca2GaSbO6_I4-m.vasp,3.51152,1.9878130000000005,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
-GLAZER:Mg2NbRhO6_Fm-3m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,amp2_metal_marker=difficult for band gap to open,1,hse:amp2log_metal_marker
+GLAZER:Mg2NbRhO6_Fm-3m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,dft_metal_marker=difficult for band gap to open,1,hse:workflow_metal_marker
 GLAZER:Ba2BiSbO6_Fm-3m.vasp,2.512462,1.639329,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Ba2BiTaO6_Fm-3m.vasp,3.705245,2.6664000000000003,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
-GLAZER:Mg2RhTaO6_Fm-3m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,amp2_metal_marker=difficult for band gap to open,1,hse:amp2log_metal_marker
+GLAZER:Mg2RhTaO6_Fm-3m.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,dft_metal_marker=difficult for band gap to open,1,hse:workflow_metal_marker
 GLAZER:Sr2BiVO6_Fm-3m.vasp,1.2475519999999998,0.801132,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Li2SeZrO6_I4-m.vasp,3.032592,1.3770119999999997,pbe:band_GGA/Band_gap.log,SUCCESS,,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Na2BiTcO6_Fm-3m.vasp,0.9893230000000002,0.3475590000000004,pbe:band_GGA/Band_gap.log,SUCCESS,nan,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Rb2BiTcO6_Fm-3m.vasp,1.554741,0.8887270000000003,pbe:band_GGA/Band_gap.log,SUCCESS,nan,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Mg2GaTaO6_Fm-3m.vasp,2.771947,1.3697690000000002,pbe:band_GGA/Band_gap.log,SUCCESS,nan,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Mg2BiNbO6_I4-m.vasp,1.907082,0.956454,pbe:band_GGA/Band_gap.log,SUCCESS,nan,1,hse:hybrid_GGA/Band_gap.log
-GLAZER:Cd2HgSO6_R-3.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,amp2_metal_marker=difficult for band gap to open,1,hse:amp2log_metal_marker
+GLAZER:Cd2HgSO6_R-3.vasp,0.0,0.0,pbe:band_GGA/Band_gap.log,METAL_ASSUMED,dft_metal_marker=difficult for band gap to open,1,hse:workflow_metal_marker
 GLAZER:Mg2BiTaO6_I4-m.vasp,1.99384,1.0205730000000006,pbe:band_GGA/Band_gap.log,SUCCESS,nan,1,hse:hybrid_GGA/Band_gap.log
 GLAZER:Mg2InTaO6_I4-m.vasp,3.251148,1.785435,pbe:band_GGA/Band_gap.log,SUCCESS,nan,1,hse:hybrid_GGA/Band_gap.log

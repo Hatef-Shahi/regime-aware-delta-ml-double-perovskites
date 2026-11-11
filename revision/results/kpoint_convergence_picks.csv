@@ -1,0 +1,5 @@
+structure_id,spg_symbol,formula,pbe_gap,output_folder
+GLAZER:Be2AlAsO6_Fm-3m.vasp,Fm-3m,Be2AlAsO6,0.0782160000000003,Be2AlAsO6_Fm-3m.vasp
+GLAZER:Ca2RhSbO6_I4-m.vasp,I4/m,Ca2SbRhO6,0.200468,Ca2RhSbO6_I4-m.vasp
+GLAZER:Cd2AsInO6_R-3.vasp,R-3,Cd2InAsO6,0.311288,Cd2AsInO6_R-3.vasp
+GLAZER:Li2MoPtO6_P2_1-c.vasp,P2_1/c,Li2MoPtO6,0.44103,Li2MoPtO6_P2_1-c.vasp

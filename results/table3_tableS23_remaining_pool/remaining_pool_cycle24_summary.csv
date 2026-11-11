@@ -1,0 +1,2 @@
+cycle,input_rows,standardized_rows,aggregated_rows,filtered_rows,top_n_requested,top_n_written,min_hse_gap,max_hse_gap,sigma_quantile,sigma_cutoff_used
+24,1020,1020,348,84,100,84,1.0,2.5,1.0,0.2705249315243136

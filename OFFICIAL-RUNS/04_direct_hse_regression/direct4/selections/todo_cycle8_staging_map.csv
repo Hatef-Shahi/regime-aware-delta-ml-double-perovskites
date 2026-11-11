@@ -1,8 +1,8 @@
 structure_id,bank_file,staged_name,status,copy_mode,split
-GLAZER:Tl2TiWO6_Fm-3m.vasp,POSCAR_Tl2TiWO6_Fm-3m.vasp,POSCAR_Tl2TiWO6_Fm-3m.vasp,STAGED,copy,train
-GLAZER:Ca2TiSbO6_mp-cyqeb.vasp,POSCAR_Ca2TiSbO6_mp-cyqeb.vasp,POSCAR_Ca2TiSbO6_mp-cyqeb.vasp,STAGED,copy,train
-MP:mp-bbwy,POSCAR_Sr2MgWO6_Fm-3m_mp-bbwy.vasp,POSCAR_Sr2MgWO6_Fm-3m_mp-bbwy.vasp,STAGED,copy,train
-MP:mp-bbzb,POSCAR_Sr2CdWO6_Fm-3m_mp-bbzb.vasp,POSCAR_Sr2CdWO6_Fm-3m_mp-bbzb.vasp,STAGED,copy,train
-MP:mp-bccg,POSCAR_Ba2MgWO6_Fm-3m_mp-bccg.vasp,POSCAR_Ba2MgWO6_Fm-3m_mp-bccg.vasp,STAGED,copy,train
+GLAZER:Be2SeSnO6_Fm-3m.vasp,POSCAR_Be2SeSnO6_Fm-3m.vasp,POSCAR_Be2SeSnO6_Fm-3m.vasp,STAGED,copy,train
+GLAZER:Be2HfSiO6_Fm-3m.vasp,POSCAR_Be2HfSiO6_Fm-3m.vasp,POSCAR_Be2HfSiO6_Fm-3m.vasp,STAGED,copy,train
+MP:mp-bbwf,POSCAR_Sr2ZnMoO6_Fm-3m_mp-bbwf.vasp,POSCAR_Sr2ZnMoO6_Fm-3m_mp-bbwf.vasp,STAGED,copy,train
+GLAZER:Sr2GeTeO6_Fm-3m.vasp,POSCAR_Sr2GeTeO6_Fm-3m.vasp,POSCAR_Sr2GeTeO6_Fm-3m.vasp,STAGED,copy,train
 GLAZER:Sr2InNbO6_I4-m.vasp,POSCAR_Sr2InNbO6_I4-m.vasp,POSCAR_Sr2InNbO6_I4-m.vasp,STAGED,copy,train
-GLAZER:K2SbTaO6_I4-m.vasp,POSCAR_K2SbTaO6_I4-m.vasp,POSCAR_K2SbTaO6_I4-m.vasp,STAGED,copy,train
+GLAZER:Na2MoZrO6_I4-m.vasp,POSCAR_Na2MoZrO6_I4-m.vasp,POSCAR_Na2MoZrO6_I4-m.vasp,STAGED,copy,train
+GLAZER:Mg2HgSeO6_R-3.vasp,POSCAR_Mg2HgSeO6_R-3.vasp,POSCAR_Mg2HgSeO6_R-3.vasp,STAGED,copy,train

@@ -1,0 +1,9 @@
+# Versions of the environment that produced OFFICIAL-RUNS (a Python 3.8.10 venv on the nibi cluster).
+# The saved cycle-24 models were pickled with scikit-learn 1.3.2; other versions may not load them
+# or may give different GPR fits.
+numpy==1.24.4
+pandas==1.5.3
+scikit-learn==1.3.2
+scipy==1.10.1
+joblib==1.4.2
+matplotlib==3.3.2

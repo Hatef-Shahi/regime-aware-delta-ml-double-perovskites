@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Gap 3 figure/table — Delta-ML AL vs Direct-HSE AL target ablation.
+Gap 3 figure/table: Delta-ML AL vs Direct-HSE AL target ablation.
 
 Purpose
 -------
@@ -473,7 +473,7 @@ def main() -> int:
             "end2end_hse_RMSE_mean", "end2end_hse_RMSE_std",
             "end2end_hse_R2_mean", "end2end_hse_R2_std",
         ]:
-            md_df[c] = md_df[c].map(lambda v: f"{float(v):.4f}" if np.isfinite(float(v)) else "—")
+            md_df[c] = md_df[c].map(lambda v: f"{float(v):.4f}" if np.isfinite(float(v)) else "n/a")
         fixed_md.write_text(df_to_md_table(md_df), encoding="utf-8")
 
         summary = pd.DataFrame([
@@ -486,7 +486,7 @@ def main() -> int:
         summary_md_df = summary.copy()
         for c in summary_md_df.columns:
             if c not in {"group", "n_runs", "cycles_max"}:
-                summary_md_df[c] = summary_md_df[c].map(lambda v: f"{float(v):.4f}" if np.isfinite(float(v)) else "—")
+                summary_md_df[c] = summary_md_df[c].map(lambda v: f"{float(v):.4f}" if np.isfinite(float(v)) else "n/a")
         summary_md.write_text(df_to_md_table(summary_md_df), encoding="utf-8")
 
     print(f"[OK] Figure: {base}.pdf/.svg/.png")

@@ -13,11 +13,11 @@ except Exception:
     mannwhitneyu = None
 
 
-ROOT = Path("/home/hatef/Desktop/Final-thesis-plots/experiments")
+REPO = Path(__file__).resolve().parents[2]
 
 METHOD_DIRS = {
-    "Gate-aware AL": ROOT / "paper-runs" / "delta_kg2_m6_q035_theta016_dosON",
-    "No-gate full-pool AL": ROOT / "paper-runs" / "nogate_unified_delta_fullpool",
+    "Gate-aware AL": REPO / "OFFICIAL-RUNS" / "01_gate_aware_delta_ml_dos_on",
+    "No-gate full-pool AL": REPO / "OFFICIAL-RUNS" / "02_nogate_unified_delta_fullpool",
 }
 
 METHODS = ["Gate-aware AL", "No-gate full-pool AL"]
@@ -27,7 +27,7 @@ COLORS = {
     "No-gate full-pool AL": "#ff7f0e",   # matplotlib default orange
 }
 
-OUTDIR = ROOT / "artifacts" / "ablations" / "nogate_vs_gate_fullpool"
+OUTDIR = REPO / "audits" / "nogate_vs_gate_fullpool"
 OUTDIR.mkdir(parents=True, exist_ok=True)
 
 CYCLE_MAX = 24

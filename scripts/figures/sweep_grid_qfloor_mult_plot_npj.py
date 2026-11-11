@@ -431,7 +431,7 @@ def annotate_heatmap(
         for j in range(data.shape[1]):
             v = data[i, j]
             if not np.isfinite(v):
-                txt = "—"
+                txt = "n/a"
                 color = PALETTE["ink"]
             else:
                 txt = format(v, fmt)
@@ -616,7 +616,7 @@ def df_to_md_table(df: pd.DataFrame) -> str:
         for c in headers:
             v = row[c]
             if isinstance(v, float):
-                vals.append(f"{v:.4f}" if np.isfinite(v) else "—")
+                vals.append(f"{v:.4f}" if np.isfinite(v) else "n/a")
             else:
                 vals.append(str(v))
         lines.append("| " + " | ".join(vals) + " |")

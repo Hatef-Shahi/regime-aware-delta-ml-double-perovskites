@@ -1,0 +1,15 @@
+{
+  "root": ".",
+  "al_dir": "OFFICIAL-RUNS/01_gate_aware_delta_ml_dos_on",
+  "random_dir": "OFFICIAL-RUNS/03_random_quota_matched",
+  "al_glob": "al*",
+  "random_glob": "random*",
+  "n_al_runs": 5,
+  "n_random_runs": 5,
+  "match_cycle": 24,
+  "seed_labels": 100,
+  "batch_size": 7,
+  "acquired_labels": 168,
+  "total_labels": 268,
+  "caption_note": "Lines show across-replicate means; shaded regions show across-replicate standard deviations at each cycle. Cycle-24 insets report mean \u00b1 standard deviation."
+}

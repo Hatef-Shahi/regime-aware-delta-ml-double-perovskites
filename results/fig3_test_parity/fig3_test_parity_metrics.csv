@@ -1,0 +1,5 @@
+representation,metric_basis,mode,cycle,n_replicates,subset,n_unique_structures,MAE,RMSE,R2
+mean_prediction_per_structure,metrics calculated after averaging replicate predictions for each unique structure,test,24,5,HSE_overall,30,0.18664021469951636,0.28115442720562484,0.9607908006572939
+mean_prediction_per_structure,metrics calculated after averaging replicate predictions for each unique structure,test,24,5,HSE_baseline_ZBG,7,0.3608438075995251,0.441644531765617,-0.015543578116654633
+mean_prediction_per_structure,metrics calculated after averaging replicate predictions for each unique structure,test,24,5,HSE_non_ZBG,23,0.13362172990386148,0.20914786854097858,0.9614603412106438
+mean_prediction_per_structure,metrics calculated after averaging replicate predictions for each unique structure,test,24,5,Delta_non_ZBG,23,0.1336217299038616,0.20914786854097875,0.5762328502034121

@@ -117,7 +117,7 @@ def _safe_numeric(x) -> pd.Series:
 
 def _parse_pbe_from_log(fp: Path) -> Tuple[float, str]:
     """
-    Parse AMP2 band_GGA/Band_gap.log.
+    Parse the DFT workflow's band_GGA/Band_gap.log.
 
     Patterns:
       - "This system is metallic." -> 0.0
@@ -493,6 +493,7 @@ def cmd_select(args) -> None:
         status_col=args.status_col,
         hse_col=args.hse_col,
         metal_thr_ev=float(args.metal_thr_ev),
+        cycle=int(args.cycle),
         val_size=30,
         salt="val_v3",
     )

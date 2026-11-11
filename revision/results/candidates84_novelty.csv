@@ -1,0 +1,85 @@
+formula_tex,formula,source,pbe,hse_pred,sigma,nrep,shortlist,qformula,q,formula_mp,n_mp_entries,mp_ids,spacegroups,n_icsd_backed,icsd_ids,min_e_above_hull,mp_band_gaps,novelty
+Be$_{2}$PbWO$_{6}$,Be2PbWO6,I4/m,0.06,1.0,0.173,4,False,Be2O6Pb1W1,Be2O6PbW,Be2O6PbW,0,,,0,,,,D_composition absent from MP
+TcAg$_{2}$BiO$_{6}$,TcAg2BiO6,I4/m,0.34,1.05,0.172,5,False,Ag2Bi1O6Tc1,Ag2BiO6Tc,Ag2BiO6Tc,0,,,0,,,,D_composition absent from MP
+Ca$_{2}$TeWO$_{6}$,Ca2TeWO6,MP,0.22,1.13,0.239,1,False,Ca2O6Te1W1,Ca2O6TeW,Ca2O6TeW,2,mp-aaachpxq;mp-aaaczzoe,P1;P2_1/c,0,,0.1766825370666689,1.5426999999999995;0.2245073413571852,B_MP theoretical entry (this structure)
+Tl$_{2}$InTcO$_{6}$,Tl2InTcO6,Fm-3m,0.08,1.18,0.232,1,False,In1O6Tc1Tl2,InO6TcTl2,InO6TcTl2,0,,,0,,,,D_composition absent from MP
+InTc(AgO$_{3}$)$_{2}$,InTc(AgO3)2,R-3,0.52,1.24,0.134,3,False,Ag2In1O6Tc1,Ag2InO6Tc,Ag2InO6Tc,0,,,0,,,,D_composition absent from MP
+Sr$_{2}$VBiO$_{6}$,Sr2VBiO6,Fm-3m,0.8,1.27,0.017,3,True,Bi1O6Sr2V1,BiO6Sr2V,BiO6Sr2V,0,,,0,,,,D_composition absent from MP
+Tl$_{2}$GeMoO$_{6}$,Tl2GeMoO6,Fm-3m,0.05,1.3,0.223,1,False,Ge1Mo1O6Tl2,GeMoO6Tl2,GeMoO6Tl2,0,,,0,,,,D_composition absent from MP
+Be$_{2}$TcAgO$_{6}$,Be2TcAgO6,R-3,0.34,1.31,0.226,4,False,Ag1Be2O6Tc1,AgBe2O6Tc,AgBe2O6Tc,0,,,0,,,,D_composition absent from MP
+NbV(AgO$_{3}$)$_{2}$,NbV(AgO3)2,I4/m,0.39,1.33,0.199,2,False,Ag2Nb1O6V1,Ag2NbO6V,Ag2NbO6V,0,,,0,,,,D_composition absent from MP
+Zn$_{2}$TeWO$_{6}$,Zn2TeWO6,MP,0.43,1.34,0.155,4,False,O6Te1W1Zn2,O6TeWZn2,O6TeWZn2,2,mp-aaachpoq;mp-aaadaehd,P1;P2_1/c,0,,0.1992139639583321,1.9748;0.4349999999999996,B_MP theoretical entry (this structure)
+Sr$_{2}$SnSeO$_{6}$,Sr2SnSeO6,Fm-3m,0.68,1.41,0.085,1,False,O6Se1Sn1Sr2,O6SeSnSr2,O6SeSnSr2,0,,,0,,,,D_composition absent from MP
+Ba$_{2}$InBiO$_{6}$,Ba2InBiO6,MP,0.21,1.45,0.215,5,False,Ba2Bi1In1O6,Ba2BiInO6,Ba2BiInO6,2,mp-aaadircf;mp-aaacrxdx,Pn-3;Fm-3m,0,,0.0,0.20800000000000018;0.0,B_MP theoretical entry (this structure)
+Na$_{2}$AlTcO$_{6}$,Na2AlTcO6,Fm-3m,0.49,1.45,0.033,5,True,Al1Na2O6Tc1,AlNa2O6Tc,AlNa2O6Tc,0,,,0,,,,D_composition absent from MP
+Sr$_{2}$GeTeO$_{6}$,Sr2GeTeO6,Fm-3m,0.74,1.47,0.066,1,False,Ge1O6Sr2Te1,GeO6Sr2Te,GeO6Sr2Te,0,,,0,,,,D_composition absent from MP
+Li$_{2}$AlTcO$_{6}$,Li2AlTcO6,Fm-3m,0.48,1.47,0.032,2,True,Al1Li2O6Tc1,AlLi2O6Tc,AlLi2O6Tc,0,,,0,,,,D_composition absent from MP
+TaV(AgO$_{3}$)$_{2}$,TaV(AgO3)2,I4/m,0.53,1.49,0.251,1,False,Ag2O6Ta1V1,Ag2O6TaV,Ag2O6TaV,0,,,0,,,,D_composition absent from MP
+Ca$_{2}$SnSeO$_{6}$,Ca2SnSeO6,Fm-3m,0.79,1.5,0.063,2,False,Ca2O6Se1Sn1,Ca2O6SeSn,Ca2O6SeSn,0,,,0,,,,D_composition absent from MP
+Mg$_{2}$PbWO$_{6}$,Mg2PbWO6,I4/m,0.61,1.52,0.045,5,True,Mg2O6Pb1W1,Mg2O6PbW,Mg2O6PbW,0,,,0,,,,D_composition absent from MP
+Mg$_{2}$SnWO$_{6}$,Mg2SnWO6,MP,0.84,1.52,0.045,1,True,Mg2O6Sn1W1,Mg2O6SnW,Mg2O6SnW,2,mp-aaachpcm;mp-aaacyqem,P1;P2_1/c,0,,0.1328352478076961,2.2891999999999997;1.5436999999999994,B_MP theoretical entry (this structure)
+Rb$_{2}$TcBiO$_{6}$,Rb2TcBiO6,Fm-3m,0.89,1.53,0.085,4,False,Bi1O6Rb2Tc1,BiO6Rb2Tc,BiO6Rb2Tc,0,,,0,,,,D_composition absent from MP
+Be$_{2}$AlAsO$_{6}$,Be2AlAsO6,Fm-3m,0.08,1.62,0.2,5,False,Al1As1Be2O6,AlAsBe2O6,AlAsBe2O6,0,,,0,,,,D_composition absent from MP
+Mg$_{2}$TeWO$_{6}$,Mg2TeWO6,MP,0.69,1.65,0.271,1,False,Mg2O6Te1W1,Mg2O6TeW,Mg2O6TeW,2,mp-aaachpkv;mp-aaaczziz,P1;P2_1/c,0,,0.2374028424666674,1.6119999999999997;0.6915000000000004,B_MP theoretical entry (this structure)
+Ca$_{2}$GeTeO$_{6}$,Ca2GeTeO6,Fm-3m,0.88,1.67,0.045,2,True,Ca2Ge1O6Te1,Ca2GeO6Te,Ca2GeO6Te,0,,,0,,,,D_composition absent from MP
+ZrTl$_{2}$WO$_{6}$,ZrTl2WO6,Fm-3m,0.53,1.68,0.195,3,False,O6Tl2W1Zr1,O6Tl2WZr,O6Tl2WZr,0,,,0,,,,D_composition absent from MP
+Li$_{2}$AlTcO$_{6}$,Li2AlTcO6,I4/m,0.73,1.69,0.063,3,False,Al1Li2O6Tc1,AlLi2O6Tc,AlLi2O6Tc,0,,,0,,,,D_composition absent from MP
+Ba$_{2}$VBiO$_{6}$,Ba2VBiO6,MP,1.14,1.71,0.092,5,False,Ba2Bi1O6V1,Ba2BiO6V,Ba2BiO6V,2,mp-aaadiqmb;mp-aaadiqqd,Pn-3;Fm-3m,0,,0.1342402653750056,1.1362999999999999;1.1225,B_MP theoretical entry (this structure)
+TaBe$_{2}$RhO$_{6}$,TaBe2RhO6,I4/m,0.24,1.72,0.229,2,False,Be2O6Rh1Ta1,Be2O6RhTa,Be2O6RhTa,0,,,0,,,,D_composition absent from MP
+K$_{2}$TiMoO$_{6}$,K2TiMoO6,I4/m,0.73,1.72,0.052,1,True,K2Mo1O6Ti1,K2MoO6Ti,K2MoO6Ti,0,,,0,,,,D_composition absent from MP
+Na$_{2}$GaTcO$_{6}$,Na2GaTcO6,Fm-3m,0.82,1.75,0.07,1,False,Ga1Na2O6Tc1,GaNa2O6Tc,GaNa2O6Tc,0,,,0,,,,D_composition absent from MP
+ZrAg$_{2}$MoO$_{6}$,ZrAg2MoO6,P2_1/c,0.71,1.75,0.169,5,False,Ag2Mo1O6Zr1,Ag2MoO6Zr,Ag2MoO6Zr,0,,,0,,,,D_composition absent from MP
+Be$_{2}$InSbO$_{6}$,Be2InSbO6,I4/m,0.39,1.76,0.132,2,False,Be2In1O6Sb1,Be2InO6Sb,Be2InO6Sb,0,,,0,,,,D_composition absent from MP
+Na$_{2}$TeWO$_{6}$,Na2TeWO6,Fm-3m,0.92,1.77,0.037,1,True,Na2O6Te1W1,Na2O6TeW,Na2O6TeW,0,,,0,,,,D_composition absent from MP
+Sr$_{2}$InAsO$_{6}$,Sr2InAsO6,Fm-3m,0.22,1.78,0.138,4,False,As1In1O6Sr2,AsInO6Sr2,AsInO6Sr2,0,,,0,,,,D_composition absent from MP
+TiAg$_{2}$WO$_{6}$,TiAg2WO6,I4/m,0.82,1.84,0.155,4,False,Ag2O6Ti1W1,Ag2O6TiW,Ag2O6TiW,0,,,0,,,,D_composition absent from MP
+ZnCd$_{2}$SeO$_{6}$,ZnCd2SeO6,R-3,0.39,1.84,0.123,5,False,Cd2O6Se1Zn1,Cd2O6SeZn,Cd2O6SeZn,0,,,0,,,,D_composition absent from MP
+Mg$_{2}$CdSeO$_{6}$,Mg2CdSeO6,I4/m,0.35,1.85,0.06,5,False,Cd1Mg2O6Se1,CdMg2O6Se,CdMg2O6Se,0,,,0,,,,D_composition absent from MP
+Mg$_{2}$TiPtO$_{6}$,Mg2TiPtO6,Fm-3m,0.51,1.86,0.101,3,False,Mg2O6Pt1Ti1,Mg2O6PtTi,Mg2O6PtTi,0,,,0,,,,D_composition absent from MP
+Mg$_{2}$TaSbO$_{6}$,Mg2TaSbO6,MP,1.11,1.86,0.111,4,False,Mg2O6Sb1Ta1,Mg2O6SbTa,Mg2O6SbTa,1,mp-aaacyspa,P2_1/m,0,,0.217424702041665,1.1060999999999996,B_MP theoretical entry (this structure)
+HfBe$_{2}$PtO$_{6}$,HfBe2PtO6,I4/m,0.42,1.87,0.186,5,False,Be2Hf1O6Pt1,Be2HfO6Pt,Be2HfO6Pt,0,,,0,,,,D_composition absent from MP
+Mg$_{2}$HgSeO$_{6}$,Mg2HgSeO6,I4/m,0.44,1.89,0.146,4,False,Hg1Mg2O6Se1,HgMg2O6Se,HgMg2O6Se,0,,,0,,,,D_composition absent from MP
+Zn$_{2}$BiSbO$_{6}$,Zn2BiSbO6,MP,1.06,1.9,0.097,5,False,Bi1O6Sb1Zn2,BiO6SbZn2,BiO6SbZn2,1,mp-aaacyjvq,P2_1/m,0,,0.1398824484999989,1.0774250849914626,B_MP theoretical entry (this structure)
+Sr$_{2}$InBiO$_{6}$,Sr2InBiO6,MP,0.62,1.93,0.249,4,False,Bi1In1O6Sr2,BiInO6Sr2,BiInO6Sr2,2,mp-aaadijwx;mp-aaadijyw,Fm-3m;Pn-3,0,,0.0027959372499983,0.0;0.6187,B_MP theoretical entry (this structure)
+Mg$_{2}$NbBiO$_{6}$,Mg2NbBiO6,I4/m,0.96,1.96,0.068,4,False,Bi1Mg2Nb1O6,BiMg2NbO6,BiMg2NbO6,0,,,0,,,,D_composition absent from MP
+Sr$_{2}$NbSbO$_{6}$,Sr2NbSbO6,MP,1.14,1.99,0.089,5,False,Nb1O6Sb1Sr2,NbO6SbSr2,NbO6SbSr2,2,mp-aaadinqq;mp-aaadinsx,Fm-3m;Pn-3,0,,0.121690939549989,0.8047000000000004;1.1448999999999998,B_MP theoretical entry (this structure)
+Be$_{2}$HgSeO$_{6}$,Be2HgSeO6,I4/m,0.57,1.99,0.173,5,False,Be2Hg1O6Se1,Be2HgO6Se,Be2HgO6Se,0,,,0,,,,D_composition absent from MP
+Mg$_{2}$HgSeO$_{6}$,Mg2HgSeO6,R-3,0.57,1.99,0.132,5,False,Hg1Mg2O6Se1,HgMg2O6Se,HgMg2O6Se,0,,,0,,,,D_composition absent from MP
+Ba$_{2}$InSbO$_{6}$,Ba2InSbO6,MP,0.52,2.02,0.056,1,True,Ba2In1O6Sb1,Ba2InO6Sb,Ba2InO6Sb,1,mp-aaacqqvg,Fm-3m,0,,0.0,0.5239999999999996,B_MP theoretical entry (this structure)
+Mg$_{2}$TaBiO$_{6}$,Mg2TaBiO6,I4/m,1.02,2.03,0.077,4,False,Bi1Mg2O6Ta1,BiMg2O6Ta,BiMg2O6Ta,1,mp-aaaczvcs,P2_1/m,0,,0.1722831845000021,2.0892,C_new polymorph of MP composition
+Ca$_{2}$GeTeO$_{6}$,Ca2GeTeO6,P2_1/c,1.15,2.04,0.102,2,False,Ca2Ge1O6Te1,Ca2GeO6Te,Ca2GeO6Te,0,,,0,,,,D_composition absent from MP
+Na$_{2}$SnTeO$_{6}$,Na2SnTeO6,MP,1.24,2.06,0.185,1,False,Na2O6Sn1Te1,Na2O6SnTe,Na2O6SnTe,1,mp-aaaaapib,P2_1/c,1,icsd-89017,0.0386125358749991,1.2432999999999996,A_experimental (ICSD-backed in MP)
+Li$_{2}$TiMoO$_{6}$,Li2TiMoO6,I4/m,1.02,2.06,0.068,1,False,Li2Mo1O6Ti1,Li2MoO6Ti,Li2MoO6Ti,0,,,0,,,,D_composition absent from MP
+Sr$_{2}$ZnSO$_{6}$,Sr2ZnSO6,Fm-3m,0.51,2.11,0.093,3,False,O6S1Sr2Zn1,O6SSr2Zn,O6SSr2Zn,0,,,0,,,,D_composition absent from MP
+Sr$_{2}$CdSO$_{6}$,Sr2CdSO6,Fm-3m,0.51,2.15,0.061,5,False,Cd1O6S1Sr2,CdO6SSr2,CdO6SSr2,0,,,0,,,,D_composition absent from MP
+K$_{2}$TeWO$_{6}$,K2TeWO6,Fm-3m,1.3,2.15,0.029,1,True,K2O6Te1W1,K2O6TeW,K2O6TeW,0,,,0,,,,D_composition absent from MP
+Ba$_{2}$InSbO$_{6}$,Ba2InSbO6,I4/m,0.64,2.16,0.038,2,True,Ba2In1O6Sb1,Ba2InO6Sb,Ba2InO6Sb,1,mp-aaacqqvg,Fm-3m,0,,0.0,0.5239999999999996,C_new polymorph of MP composition
+Ca$_{2}$CdSeO$_{6}$,Ca2CdSeO6,I4/m,0.67,2.17,0.048,3,True,Ca2Cd1O6Se1,Ca2CdO6Se,Ca2CdO6Se,0,,,0,,,,D_composition absent from MP
+Li$_{2}$InTcO$_{6}$,Li2InTcO6,P2_1/c,1.22,2.17,0.148,3,False,In1Li2O6Tc1,InLi2O6Tc,InLi2O6Tc,0,,,0,,,,D_composition absent from MP
+HfAg$_{2}$SeO$_{6}$,HfAg2SeO6,R-3,0.59,2.18,0.189,4,False,Ag2Hf1O6Se1,Ag2HfO6Se,Ag2HfO6Se,0,,,0,,,,D_composition absent from MP
+Ca$_{2}$SnWO$_{6}$,Ca2SnWO6,MP,1.48,2.19,0.022,1,True,Ca2O6Sn1W1,Ca2O6SnW,Ca2O6SnW,3,mp-aaaecsrk;mp-aaacxiji;mp-aaadawrp,P1;P2_1/c;P1,0,,0.0708531903333353,2.0470000000000006;1.476;0.0,B_MP theoretical entry (this structure)
+Li$_{2}$GaTcO$_{6}$,Li2GaTcO6,P2_1/c,1.23,2.22,0.08,4,False,Ga1Li2O6Tc1,GaLi2O6Tc,GaLi2O6Tc,0,,,0,,,,D_composition absent from MP
+Mg$_{2}$ZnSeO$_{6}$,Mg2ZnSeO6,Fm-3m,0.79,2.23,0.101,2,False,Mg2O6Se1Zn1,Mg2O6SeZn,Mg2O6SeZn,0,,,0,,,,D_composition absent from MP
+Ca$_{2}$AlVO$_{6}$,Ca2AlVO6,Fm-3m,1.35,2.23,0.074,2,False,Al1Ca2O6V1,AlCa2O6V,AlCa2O6V,1,mp-aaadiqvh,Fm-3m,0,,0.0540098987499995,1.4527999999999999,B'_same space group in MP (theoretical)
+Mg$_{2}$TiPtO$_{6}$,Mg2TiPtO6,I4/m,0.83,2.24,0.078,4,False,Mg2O6Pt1Ti1,Mg2O6PtTi,Mg2O6PtTi,0,,,0,,,,D_composition absent from MP
+Rb$_{2}$ZrMoO$_{6}$,Rb2ZrMoO6,Fm-3m,1.21,2.25,0.079,4,False,Mo1O6Rb2Zr1,MoO6Rb2Zr,MoO6Rb2Zr,0,,,0,,,,D_composition absent from MP
+Na$_{2}$SiMoO$_{6}$,Na2SiMoO6,Fm-3m,1.19,2.26,0.027,3,True,Mo1Na2O6Si1,MoNa2O6Si,MoNa2O6Si,0,,,0,,,,D_composition absent from MP
+Ba$_{2}$TiPtO$_{6}$,Ba2TiPtO6,Fm-3m,0.89,2.27,0.071,2,False,Ba2O6Pt1Ti1,Ba2O6PtTi,Ba2O6PtTi,0,,,0,,,,D_composition absent from MP
+Rb$_{2}$HfMoO$_{6}$,Rb2HfMoO6,Fm-3m,1.25,2.27,0.088,3,False,Hf1Mo1O6Rb2,HfMoO6Rb2,HfMoO6Rb2,0,,,0,,,,D_composition absent from MP
+K$_{2}$TiWO$_{6}$,K2TiWO6,I4/m,1.11,2.27,0.052,3,True,K2O6Ti1W1,K2O6TiW,K2O6TiW,0,,,0,,,,D_composition absent from MP
+Sr$_{2}$CdSeO$_{6}$,Sr2CdSeO6,I4/m,0.76,2.28,0.067,3,False,Cd1O6Se1Sr2,CdO6SeSr2,CdO6SeSr2,0,,,0,,,,D_composition absent from MP
+Na$_{2}$TiWO$_{6}$,Na2TiWO6,Fm-3m,1.18,2.29,0.049,2,True,Na2O6Ti1W1,Na2O6TiW,Na2O6TiW,0,,,0,,,,D_composition absent from MP
+Na$_{2}$ZrMoO$_{6}$,Na2ZrMoO6,Fm-3m,1.22,2.29,0.038,4,True,Mo1Na2O6Zr1,MoNa2O6Zr,MoNa2O6Zr,0,,,0,,,,D_composition absent from MP
+Ca$_{2}$NbRhO$_{6}$,Ca2NbRhO6,I4/m,0.75,2.3,0.103,3,False,Ca2Nb1O6Rh1,Ca2NbO6Rh,Ca2NbO6Rh,0,,,0,,,,D_composition absent from MP
+Ba$_{2}$SnWO$_{6}$,Ba2SnWO6,MP,1.56,2.31,0.123,5,False,Ba2O6Sn1W1,Ba2O6SnW,Ba2O6SnW,2,mp-aaadikza;mp-aaadikzj,Pn-3;Fm-3m,0,,0.10033717925001,1.5556;1.1981000000000002,B_MP theoretical entry (this structure)
+Zn$_{2}$SnWO$_{6}$,Zn2SnWO6,MP,1.54,2.33,0.058,4,True,O6Sn1W1Zn2,O6SnWZn2,O6SnWZn2,2,mp-aaachphi;mp-aaacymji,P1;P2_1/c,0,,0.1564776885000007,2.1511000000000005;1.5411000000000001,B_MP theoretical entry (this structure)
+HfZrBe$_{2}$O$_{6}$,HfZrBe2O6,I4/m,0.86,2.35,0.18,3,False,Be2Hf1O6Zr1,Be2HfO6Zr,Be2HfO6Zr,0,,,0,,,,D_composition absent from MP
+Mg$_{2}$HgMoO$_{6}$,Mg2HgMoO6,P2_1/c,1.19,2.35,0.091,5,False,Hg1Mg2Mo1O6,HgMg2MoO6,HgMg2MoO6,0,,,0,,,,D_composition absent from MP
+Sr$_{2}$HgMoO$_{6}$,Sr2HgMoO6,I4/m,1.23,2.35,0.073,2,False,Hg1Mo1O6Sr2,HgMoO6Sr2,HgMoO6Sr2,0,,,0,,,,D_composition absent from MP
+Be$_{2}$VInO$_{6}$,Be2VInO6,I4/m,1.37,2.36,0.191,3,False,Be2In1O6V1,Be2InO6V,Be2InO6V,0,,,0,,,,D_composition absent from MP
+ZrBe$_{2}$PdO$_{6}$,ZrBe2PdO6,P2_1/c,1.04,2.39,0.225,5,False,Be2O6Pd1Zr1,Be2O6PdZr,Be2O6PdZr,0,,,0,,,,D_composition absent from MP
+Mg$_{2}$InSbO$_{6}$,Mg2InSbO6,I4/m,0.99,2.4,0.08,5,False,In1Mg2O6Sb1,InMg2O6Sb,InMg2O6Sb,0,,,0,,,,D_composition absent from MP
+Ba$_{2}$TiTeO$_{6}$,Ba2TiTeO6,Fm-3m,1.39,2.41,0.038,2,True,Ba2O6Te1Ti1,Ba2O6TeTi,Ba2O6TeTi,0,,,0,,,,D_composition absent from MP
+Na$_{2}$HfMoO$_{6}$,Na2HfMoO6,I4/m,1.38,2.42,0.084,1,False,Hf1Mo1Na2O6,HfMoNa2O6,HfMoNa2O6,0,,,0,,,,D_composition absent from MP
+Cd$_{2}$GeTeO$_{6}$,Cd2GeTeO6,R-3,1.59,2.46,0.073,2,False,Cd2Ge1O6Te1,Cd2GeO6Te,Cd2GeO6Te,0,,,0,,,,D_composition absent from MP
+Mg$_{2}$CdMoO$_{6}$,Mg2CdMoO6,I4/m,1.33,2.49,0.07,3,False,Cd1Mg2Mo1O6,CdMg2MoO6,CdMg2MoO6,0,,,0,,,,D_composition absent from MP

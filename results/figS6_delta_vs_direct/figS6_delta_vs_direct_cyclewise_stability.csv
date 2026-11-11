@@ -1,0 +1,3 @@
+method,fixed_cycle,mean_cyclewise_sd_end2end_hse_MAE,mean_cyclewise_sd_delta_nonpbe_zbg_MAE
+Δ-ML AL,24,0.04361580663274738,0.02774595741779896
+Direct-HSE AL,24,0.07951492636483223,0.11215722461932433

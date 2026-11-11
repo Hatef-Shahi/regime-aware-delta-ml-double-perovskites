@@ -33,6 +33,7 @@ Outputs
 from __future__ import annotations
 
 import argparse
+import os
 import re
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Tuple
@@ -451,8 +452,13 @@ def prediction_file_for_mode(
         if candidate.exists():
             return candidate
 
+    # Match the cycle number exactly: a plain "*cycle2*" pattern would also
+    # match cycle20 to cycle29, and file-name order would then decide.
+    exact_cycle = re.compile(rf"cycle{cycle}(?!\d)")
     possible_files = sorted(
-        run_directory.rglob(f"*cycle{cycle}*.csv")
+        path
+        for path in run_directory.rglob(f"*cycle{cycle}*.csv")
+        if exact_cycle.search(path.name)
     )
 
     if mode == "val":
@@ -474,6 +480,11 @@ def prediction_file_for_mode(
             )
         ]
 
+    if len(possible_files) > 1:
+        raise RuntimeError(
+            f"Several {mode} prediction CSVs for cycle {cycle} under "
+            f"{run_directory}: {possible_files}"
+        )
     if possible_files:
         return possible_files[0]
 
@@ -836,7 +847,7 @@ def load_pooled_predictions(
             args=args,
         )
 
-        normalized["source_file"] = str(prediction_path)
+        normalized["source_file"] = os.path.relpath(prediction_path)
 
         frames.append(normalized)
         run_names.append(run_directory.name)

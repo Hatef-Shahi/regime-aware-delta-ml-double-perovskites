@@ -1,135 +1,78 @@
 # Official manuscript results
 
-This repository contains the official run outputs, scripts, audits, and compact input data used for the manuscript.
-
-The fixed-budget manuscript comparisons use cycle 24. For runs that continued beyond cycle 24, manuscript metrics were extracted from the row with `cycle == 24`, not from the final row of `metrics/metrics.csv`.
+Every comparison in the manuscript is made at cycle 24. For runs that continued past
+cycle 24 (arm 01 al2, al3 and al5; arm 04 direct4), the reported metrics come from the
+row with `cycle == 24` of `metrics/metrics.csv`, not from its last row, and the
+reported test and remaining-pool results come from the saved cycle-24 model.
 
 ## Official run directories
 
-### 01_gate_aware_delta_ml_dos_on
+| Folder | Replicates | Role in the paper |
+|---|---|---|
+| `OFFICIAL-RUNS/01_gate_aware_delta_ml_dos_on` | al1 to al5 | retained protocol; all headline results |
+| `OFFICIAL-RUNS/02_nogate_unified_delta_fullpool` | al1 to al5 | controlled ablation of the gate (ESI Fig. S7) |
+| `OFFICIAL-RUNS/03_random_quota_matched` | random1 to random5 | quota-matched random acquisition (ESI Fig. S8) |
+| `OFFICIAL-RUNS/04_direct_hse_regression` | direct1 to direct5 | direct HSE06 regression instead of Δ (ESI Fig. S6) |
+| `OFFICIAL-RUNS/05_dos_off_sensitivity` | al1 to al5 | DOS-off variant; trajectory-level comparison with arm 01 (ESI Fig. S9) |
 
-Directory: `OFFICIAL-RUNS/01_gate_aware_delta_ml_dos_on/al1--al5`
+All arms label seven structures per cycle and use the baseline-ZBG threshold
+τ0 = 0.05 eV on the PBE gap. Arms 01, 03, 04 and 05 split each batch into two
+baseline-ZBG and five non-ZBG labels and route with the gate at θ = 0.16; arm 02 has
+no gate and no split. The retained non-ZBG selector settings are m_reg = 6 and
+q_floor = 0.35. Arm 03 keeps the
+two-regime quota but scores candidates at random within each regime. Its source folders
+were stored under a DOS-off run root on the cluster because random acquisition does
+not use the DOS term; this is a storage name only.
 
-Role: retained gate-aware Δ-ML active-learning workflow.
+Arm 04 in this release (v1.1.0) contains the direct-HSE runs whose seeds and validation
+sets match those of arm 01 and which give the values in the revised ESI (Table S2:
+end-to-end validation MAE 0.492 ± 0.043 eV, non-ZBG MAE 0.519 ± 0.071 eV,
+R² 0.809 ± 0.053, RMSE 0.681 ± 0.062 eV at cycle 24). It replaces the arm-04 folders of
+v1.0.0.
 
-Key settings:
-- fixed-budget comparison cycle: 24
-- batch size: 7
-- gate quota: 2
-- regression quota: 5
-- gate threshold: 0.16
-- `M_reg = 6`
-- `q_floor = 0.35`
-- DOS targeting: enabled
-- baseline-ZBG threshold: `E_g^PBE <= 0.05 eV`
+## Validation sets
 
-This is the retained production workflow used for the main gate-aware Δ-ML active-learning results.
+Validation IDs are matched by replicate index across all arms: al1 of arms 01, 02 and
+05, random1 and direct1 share the same 30 validation structures, and likewise for
+indices 2 to 5. The five indices have five different validation sets, each with 8
+structures that are metallic at the HSE06 level and 22 that are not.
+`audits/release_audits/official_validation_matching_all_arms.csv` and
+`audits/validation_matching/` document the matching.
 
-### 02_nogate_unified_delta_fullpool
+## Files in each official replicate
 
-Directory: `OFFICIAL-RUNS/02_nogate_unified_delta_fullpool/al1--al5`
-
-Role: true no-gate full-pool active-learning ablation.
-
-This workflow uses one unified Δ-GPR, no gate classifier, no baseline-ZBG/non-ZBG acquisition split, and allows candidates with `E_g^PBE = 0` to compete in the same acquisition pool. This ablation tests whether explicit regime-aware routing improves active learning beyond simply allowing baseline-ZBG candidates to be selected.
-
-The fixed-budget comparison against the gate-aware workflow uses cycle 24.
-
-### 03_random_quota_matched
-
-Directory: `OFFICIAL-RUNS/03_random_quota_matched/random1--random5`
-
-Role: quota-matched random-learning baseline.
-
-This baseline uses the same cycle-24 labelling budget as the retained gate-aware active-learning workflow. The source folders were originally stored under a DOS-off run root because random acquisition does not use the DOS-targeting acquisition score. This is a storage/name artifact, not a different evaluation target.
-
-The fixed-budget comparison uses cycle 24.
-
-### 04_direct_hse_regression
-
-Directory: `OFFICIAL-RUNS/04_direct_hse_regression/direct1--direct5`
-
-Role: direct-HSE regression baseline.
-
-This baseline trains a direct model for the HSE06 band gap rather than using the Δ-ML target. The fixed-budget comparison uses cycle 24.
-
-### 05_dos_off_sensitivity
-
-Directory: `OFFICIAL-RUNS/05_dos_off_sensitivity/al1--al5`
-
-Role: DOS-off sensitivity run.
-
-This directory contains the corresponding gate-aware workflow with DOS targeting disabled. It is included for the DOS on/off sensitivity analysis.
-
-The fixed-budget comparison uses cycle 24.
-
-## Validation-set protocol
-
-Validation IDs are replicate-index matched across all official arms: gate-aware, no-gate full-pool, quota-matched random, and direct-HSE.
-
-For example:
-- `01_gate_aware_delta_ml_dos_on/al1`
-- `02_nogate_unified_delta_fullpool/al1`
-- `03_random_quota_matched/random1`
-- `04_direct_hse_regression/direct1`
-
-use the same 30 validation IDs.
-
-The same replicate-index matching holds for replicates 2 through 5. The validation split varies across replicate indices, giving five unique validation sets total. Therefore, differences between methods are not caused by different validation splits within a replicate-index comparison.
-
-## Required files in each official run
-
-Each official replicate contains the files required to reproduce or audit the cycle-24 manuscript metrics:
-
-- `phase2_val_ids.csv`: frozen validation IDs for that replicate
-- `metrics/metrics.csv`: cycle-wise validation metrics
-- `selections/selected_cycle*.csv`: active-learning selections by cycle
-- `Seed_labels_cycle*.updated.csv`: cycle-wise training ledgers
-- `models/preproc_cycle24.json`: preprocessing metadata for the cycle-24 model
-- `models/phase2_cycle24.joblib`: saved cycle-24 model checkpoint
-- `test_eval/`: final test-set predictions and metrics where applicable
+`phase2_val_ids.csv` (validation IDs), `Seed_labels_cycle<N>.updated.csv` (ledger at
+the end of each cycle; the cycle-24 model is trained on the cycle-23 ledger, 268
+rows), `labels_store.csv` (labels acquired by the run), `selections/`,
+`metrics/metrics.csv` and `metrics/val_pred_cycle<N>.csv`, `models/phase2_cycle24.joblib`
+and `models/preproc_cycle<N>.json`. Arms 01 and 05 also have `test_eval/` (cycle-24
+test predictions and metrics), and arm 01 has `predictions/pred_cycle24.csv`, the cycle-24 predictions for
+the structures each replicate left unlabelled. `README.md` describes the formats.
 
 ## Data files
 
-Compact input and schema files are stored in `data/`.
-
-Expected files include:
-- `data/trainpool_ml_augmented.csv`
-- `data/test_labels_labeled.csv`
-- `data/feature_schema_gate.csv`
-- `data/feature_schema_regression.csv`
-
-## Scripts
-
-Scripts are organized as follows:
-
-- `scripts/workflow/`: active-learning workflow scripts
-- `scripts/evaluation/`: final validation/test evaluation scripts
-- `scripts/figures/`: manuscript and ESI figure-generation scripts
-- `scripts/audits/`: reproducibility and consistency audit scripts
-
-Exploratory, obsolete, and replacement scripts are intentionally excluded from the reviewer-facing release.
+`data/universe_master.csv` (502 entries, 491 unique structures),
+`data/trainpool_ml_augmented.csv` (the same entries with all model descriptors and the
+day-0 test split), `data/test_labels_labeled.csv` (30 test structures),
+`data/dos_from_output.csv` (DOS quantities behind the gate descriptors),
+`data/seed_0<k>.csv` (seed and validation cohort of replicate k),
+`data/feature_schema_gate.csv` and `data/feature_schema_regression.csv` (saved feature
+names), and `data/dropped39_classified.csv` (non-retained Glazer-bank candidates, ESI
+Table S1).
 
 ## Audits
 
-Release and diagnostic audit outputs are stored in `audits/`.
-
-Important audit folders include:
-- `audits/release_audits/`
-- `audits/validation_matching/`
-- `audits/feature_table_audit/`
-- `audits/gate_threshold_false_rescues/`
-- `audits/delta_vs_direct_variance/`
-- `audits/nogate_vs_gate_fullpool/`
-
-These files document the validation-set matching, cycle-24 availability, feature-schema checks, no-gate ablation, gate-threshold sensitivity, and Δ-ML versus direct-HSE variance diagnostics.
+`audits/release_audits/` checks that every official replicate has its cycle-24 files
+and matched validation IDs. `audits/feature_table_audit/` lists the feature names
+stored in the saved models (ESI Tables S4 and S5). `audits/nogate_vs_gate_fullpool/`
+holds the cycle-24 comparison of arms 01 and 02 and the Fig. S7 panels; the
+`cycle24_*` files are the reported values, and the `final_cycle_*` files repeat the
+comparison at the last cycle of each run. `audits/gate_threshold_false_rescues/` is
+the post hoc threshold audit of ESI Section 4, and `audits/delta_vs_direct_variance/`
+the replicate-variance comparison of arms 01 and 04.
 
 ## Environment
 
-Saved joblib models were generated with scikit-learn 1.3.2. Loading them with newer scikit-learn versions may raise `InconsistentVersionWarning`.
-
-Use `environment.yml` for exact reproduction of the saved model checkpoints.
-
-## Checksums
-
-File checksums are provided in `SHA256SUMS.txt`.
+The saved models were written with scikit-learn 1.3.2 and numpy 1.24.4. Use
+`environment.yml` or `requirements.txt` to load them. File checksums are in
+`SHA256SUMS.txt`.

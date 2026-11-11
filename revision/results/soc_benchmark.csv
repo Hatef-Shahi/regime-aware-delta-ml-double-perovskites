@@ -1,0 +1,9 @@
+structure,structure_id,spg,pbe_gap,pbe_soc_gap,hse06_reference_gap,hse06_soc_gap,routing_tau0_0.05,hse06_reference_source
+Tl2GeMoO6,GLAZER:Tl2GeMoO6_Fm-3m.vasp,Fm-3m,0.0503,0.0300,0.671,0.652,changes (non-ZBG to ZBG),AL ledgers (arms 01-05)
+Be2PbWO6,GLAZER:Be2PbWO6_I4-m.vasp,I4/m,0.0641,0.0795,0.763,,unchanged,AL ledgers (arm 01 al4; arms 02-04)
+Ca2PtSiO6,GLAZER:Ca2PtSiO6_Fm-3m.vasp,Fm-3m,0.1506,0.3145,1.661,,unchanged,AL ledgers (arms 01-05)
+Ba2BiSbO6,GLAZER:Ba2BiSbO6_mp-cefww.vasp,P-1,0.5994,0.6005,0.935,,unchanged,held-out test labels
+Ba2PbWO6,GLAZER:Ba2PbWO6_Fm-3m.vasp,Fm-3m,1.5325,1.4513,2.482,,unchanged,AL ledgers (arms 01-05)
+Ca2GaBiO6,MP:mp-dinmt,Fm-3m,0.0,0.0,0.732,,unchanged (ZBG),AL ledgers (arms 01-05)
+Tl2TiWO6,GLAZER:Tl2TiWO6_Fm-3m.vasp,Fm-3m,0.0,0.0,0.197,,unchanged (ZBG),AL ledgers (arms 01-04)
+Ag2IrWO6,GLAZER:Ag2IrWO6_P2_1-c.vasp,P2_1/c,0.0,0.0,0.0,,unchanged (ZBG),AL ledgers (METAL_ASSUMED; arms 01-05)

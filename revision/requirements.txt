@@ -1,0 +1,12 @@
+# Environment for the scripts in revision/ (Python 3.11).
+# numpy must be 1.26.4: the composition-grouped folds of GroupKFold depend on the
+# numpy sort order, and other numpy versions give different folds and slightly
+# different grouped cross-validation errors than those reported in ESI Tables S8, S9(a)
+# and S12.
+numpy==1.26.4
+pandas==1.5.3
+scikit-learn==1.3.2
+scipy==1.11.4
+joblib==1.4.2
+matplotlib==3.7.5
+shap==0.44.1

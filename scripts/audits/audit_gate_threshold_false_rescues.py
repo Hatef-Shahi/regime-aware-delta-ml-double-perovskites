@@ -87,9 +87,10 @@ def metrics_at_threshold(zbg, theta):
 def main():
     files = sorted(GATE_ROOT.glob(f"al*/test_eval/test_pred_cycle{CYCLE}.csv"))
     if len(files) != 5:
-        print(f"[WARN] expected 5 files, found {len(files)}")
-        for f in files:
-            print(f)
+        raise FileNotFoundError(
+            f"expected 5 test_pred_cycle{CYCLE}.csv files under {GATE_ROOT}, "
+            f"found {len(files)}: {files}"
+        )
 
     all_df = pd.concat([read_one(p) for p in files], ignore_index=True)
     zbg = all_df[all_df["is_pbe_gap_zero"]].copy()

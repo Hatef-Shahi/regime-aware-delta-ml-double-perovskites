@@ -11,12 +11,12 @@ Visual revisions included:
    "Δ-MAE increase after permutation / eV"
 
 Input:
-  artifacts/pub_final_figures/fig_feature_group_permutation_importance/
+  results/tableS7_figS10_permutation/ (or the folder given as the first argument)
       feature_group_permutation_importance_summary.csv
       feature_group_permutation_importance_per_run.csv
 
 Outputs:
-  artifacts/pub_final_figures/fig_feature_group_permutation_importance/
+  results/tableS7_figS10_permutation/ (or the folder given as the first argument)
       fig_feature_group_permutation_importance_combined.png/pdf/svg
       fig_gate_classifier_feature_group_permutation_importance.png/pdf/svg
       fig_delta_regression_feature_group_permutation_importance.png/pdf/svg
@@ -38,7 +38,8 @@ import matplotlib.pyplot as plt
 # ----------------------------
 # Paths
 # ----------------------------
-FIG_DIR = Path("artifacts/pub_final_figures/fig_feature_group_permutation_importance")
+import sys
+FIG_DIR = Path(sys.argv[1] if len(sys.argv) > 1 else "results/tableS7_figS10_permutation")
 
 SUMMARY_CSV = FIG_DIR / "feature_group_permutation_importance_summary.csv"
 PER_RUN_CSV = FIG_DIR / "feature_group_permutation_importance_per_run.csv"

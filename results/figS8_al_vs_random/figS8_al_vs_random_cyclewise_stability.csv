@@ -1,0 +1,7 @@
+metric,method,mean_cyclewise_sigma,sigma_of_cyclewise_sigma
+end2end_hse_MAE,AL,0.04361580663274738,0.02121227527405389
+end2end_hse_MAE,Quota-random,0.059238103472622754,0.02571740950866668
+delta_MAE_non_PBE_ZBG,AL,0.02774595741779896,0.015633535799272697
+delta_MAE_non_PBE_ZBG,Quota-random,0.04679784283880463,0.015248382682802049
+end2end_hse_MAE,stability_gain_AL_vs_Quota-random,0.26372040838706645,
+delta_MAE_non_PBE_ZBG,stability_gain_AL_vs_Quota-random,0.4071103338380354,

@@ -8,7 +8,7 @@ import pandas as pd
 
 ROOT = Path.cwd()
 RUN_ROOT = ROOT / "paper-runs" / "delta_kg2_m6_q035_theta016_dosON"
-TABLE_TXT = Path("/mnt/data/Pasted text(5).txt")  # only works inside ChatGPT sandbox; ignore locally if unavailable
+TABLE_TXT = Path("/mnt/data/Pasted text(5).txt")  # optional path to the LaTeX feature table text; ignored if unavailable
 
 # Local fallback: paste your table file path here if you saved it locally.
 LOCAL_TABLE_TXT = ROOT / "Pasted text(5).txt"

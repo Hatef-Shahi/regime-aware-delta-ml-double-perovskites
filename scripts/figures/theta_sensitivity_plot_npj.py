@@ -33,6 +33,7 @@ Example:
 from __future__ import annotations
 
 import argparse
+import os
 import re
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
@@ -205,7 +206,7 @@ def discover_table(root: Path, runs_dir: str, metrics_file: str, match_cycle: in
             "seed_labels": seed_labels,
             "total_labels": seed_labels + match_cycle * batch_size,
             **d,
-            "run_dir": str(rd),
+            "run_dir": os.path.relpath(str(rd)),
         })
 
     if not rows:
@@ -214,7 +215,7 @@ def discover_table(root: Path, runs_dir: str, metrics_file: str, match_cycle: in
 
 
 def fmt_value(v: float) -> str:
-    return f"{v:.3f}" if np.isfinite(v) else "—"
+    return f"{v:.3f}" if np.isfinite(v) else "n/a"
 
 
 def add_panel_label(ax: plt.Axes, label: str) -> None:
@@ -359,7 +360,7 @@ def main() -> int:
     md_df = df[display_cols].copy()
     for c in md_df.columns:
         if pd.api.types.is_float_dtype(md_df[c]):
-            md_df[c] = md_df[c].map(lambda v: f"{v:.4f}" if np.isfinite(v) else "—")
+            md_df[c] = md_df[c].map(lambda v: f"{v:.4f}" if np.isfinite(v) else "n/a")
     fixed_md.write_text(md_df.to_markdown(index=False), encoding="utf-8")
 
     retained = df[retained_mask].iloc[0]

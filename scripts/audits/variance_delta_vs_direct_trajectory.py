@@ -6,22 +6,20 @@ import numpy as np
 import pandas as pd
 
 
-ROOT = Path("/home/hatef/Desktop/Final-thesis-plots/experiments")
+REPO = Path(__file__).resolve().parents[2]
 
-DEFAULT_DELTA_ROOT = ROOT / "paper-runs" / "delta_kg2_m6_q035_theta016_dosON"
-DEFAULT_DIRECT_ROOT_CANDIDATES = [
-    ROOT / "paper-runs" / "direct_hse",
-    ROOT / "paper-runs" / "direct_hse_fullpool",
-    ROOT / "paper-runs" / "direct_hse_al",
-    ROOT / "random-sets",
-]
+DEFAULT_DELTA_ROOT = REPO / "OFFICIAL-RUNS" / "01_gate_aware_delta_ml_dos_on"
+# The direct-HSE arm is given explicitly. An earlier version fell back to the
+# first existing folder in a candidate list ending in random-sets/, which
+# silently compared the Delta-ML arm with random-selection runs.
+DEFAULT_DIRECT_ROOT = REPO / "OFFICIAL-RUNS" / "04_direct_hse_regression"
 
 
-def existing_direct_root():
-    for p in DEFAULT_DIRECT_ROOT_CANDIDATES:
-        if p.exists():
-            return p
-    return DEFAULT_DIRECT_ROOT_CANDIDATES[-1]
+def rel_to_repo(path):
+    try:
+        return str(Path(path).resolve().relative_to(REPO))
+    except ValueError:
+        return str(path)
 
 
 def find_metric_file(run_dir):
@@ -75,8 +73,7 @@ def read_runs(root, run_prefixes):
 
             metric_file = find_metric_file(run_dir)
             if metric_file is None:
-                print(f"[WARN] no metrics.csv for {run_dir}")
-                continue
+                raise FileNotFoundError(f"no metrics.csv for {run_dir}")
 
             df = pd.read_csv(metric_file)
 
@@ -115,7 +112,7 @@ def read_runs(root, run_prefixes):
             for _, r in df.iterrows():
                 rows.append({
                     "run": run_dir.name,
-                    "metric_file": str(metric_file),
+                    "metric_file": rel_to_repo(metric_file),
                     "cycle": pd.to_numeric(r[cycle_col], errors="coerce"),
                     "end2end_MAE": pd.to_numeric(r[end2end_col], errors="coerce"),
                     "nonmetal_MAE": (
@@ -204,9 +201,9 @@ def ratio_summary(by_cycle):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--delta-root", default=str(DEFAULT_DELTA_ROOT))
-    ap.add_argument("--direct-root", default=str(existing_direct_root()))
+    ap.add_argument("--direct-root", default=str(DEFAULT_DIRECT_ROOT))
     ap.add_argument("--max-cycle", type=int, default=24)
-    ap.add_argument("--out-dir", default=str(ROOT / "artifacts" / "diagnostics" / "delta_vs_direct_variance"))
+    ap.add_argument("--out-dir", default=str(REPO / "audits" / "delta_vs_direct_variance"))
     args = ap.parse_args()
 
     delta_root = Path(args.delta_root)

@@ -1,0 +1,37 @@
+{
+  "figure": "Feature-group permutation importance",
+  "workflow": "DOS-on retained active-learning workflow",
+  "cycle": 24,
+  "runs": [
+    "al1",
+    "al2",
+    "al3",
+    "al4",
+    "al5"
+  ],
+  "evaluation": "held-out test set",
+  "gate_metric": "AUC decrease after feature-group permutation",
+  "delta_regression_metric": "Delta-MAE increase after feature-group permutation",
+  "error_bars": "SD across five AL replicates",
+  "n_repeats_per_run": 50,
+  "pbe_zero_threshold_eV": 0.05,
+  "metal_threshold_eV": 0.05,
+  "terminology": {
+    "baseline_ZBG": "PBE-zero-band-gap regime; E_g^PBE <= 0.05 eV",
+    "non_ZBG": "E_g^PBE > 0.05 eV"
+  },
+  "branches": [
+    "Gate classifier",
+    "\u0394-regression"
+  ],
+  "feature_groups": [
+    "Baseline PBE electronic",
+    "DOS near Fermi level",
+    "Elemental chemistry",
+    "Global structure / symmetry",
+    "Local coordination / distortion",
+    "Oxidation / ionic-radius descriptors"
+  ],
+  "interpretation_note": "Permutation importance quantifies model sensitivity under the retained active-learning-labelled distribution. It should not be interpreted as universal physical causality.",
+  "gate_subset_note": "Gate importance is based on the held-out baseline-ZBG subset, which contains only seven structures per replicate; therefore, the gate ranking should be interpreted cautiously."
+}

@@ -19,8 +19,9 @@ def find_val_file(run_dir):
         if p.exists():
             return p
 
-    hits = sorted(run_dir.rglob("*val*ids*.csv"))
-    return hits[0] if hits else None
+    # No wildcard fallback: an arbitrary "*val*ids*" file is not a substitute
+    # for the run's own validation-ID file.
+    return None
 
 def read_ids(path):
     df = pd.read_csv(path)
@@ -28,7 +29,11 @@ def read_ids(path):
         col = "structure_id"
     else:
         col = df.columns[0]
-    return set(df[col].astype(str).str.strip())
+    ids = df[col].dropna().astype(str).str.strip()
+    ids = set(ids[ids != ""])
+    if not ids:
+        raise ValueError(f"Validation-ID file holds no IDs: {path}")
+    return ids
 
 def main():
     rows = []
@@ -43,17 +48,10 @@ def main():
         nogate_file = find_val_file(nogate_dir)
 
         if gate_file is None or nogate_file is None:
-            rows.append({
-                "replicate": run,
-                "gate_file": str(gate_file) if gate_file else "MISSING",
-                "nogate_file": str(nogate_file) if nogate_file else "MISSING",
-                "n_gate": None,
-                "n_nogate": None,
-                "matched_gate_vs_nogate": False,
-                "only_in_gate": None,
-                "only_in_nogate": None,
-            })
-            continue
+            raise FileNotFoundError(
+                f"{run}: validation-ID file missing "
+                f"(gate: {gate_file or gate_dir}, no-gate: {nogate_file or nogate_dir})"
+            )
 
         gate_ids = read_ids(gate_file)
         nogate_ids = read_ids(nogate_file)

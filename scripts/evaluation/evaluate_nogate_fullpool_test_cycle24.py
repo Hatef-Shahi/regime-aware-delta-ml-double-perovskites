@@ -9,11 +9,11 @@ import joblib
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score, precision_score, recall_score, f1_score, confusion_matrix
 
 
-ROOT = Path("/home/hatef/Desktop/Final-thesis-plots/experiments")
+REPO = Path(__file__).resolve().parents[2]
 
-DEFAULT_NOGATE_ROOT = ROOT / "paper-runs" / "nogate_unified_delta_fullpool"
-DEFAULT_GATE_ROOT = ROOT / "paper-runs" / "delta_kg2_m6_q035_theta016_dosON"
-DEFAULT_OUTDIR = ROOT / "artifacts" / "ablations" / "nogate_vs_gate_fullpool" / "test_eval_nogate_cycle24"
+DEFAULT_NOGATE_ROOT = REPO / "OFFICIAL-RUNS" / "02_nogate_unified_delta_fullpool"
+DEFAULT_GATE_ROOT = REPO / "OFFICIAL-RUNS" / "01_gate_aware_delta_ml_dos_on"
+DEFAULT_OUTDIR = REPO / "audits" / "nogate_vs_gate_fullpool" / "test_eval_nogate_cycle24"
 
 PBE_ZERO_THR = 0.05
 HSE_ZERO_THR = 0.05
@@ -366,7 +366,7 @@ def main():
     feature_csvs.extend([Path(p) for p in args.feature_csv])
 
     # Default global feature bank.
-    feature_csvs.append(Path("/home/hatef/Desktop/thesis/Universe/test/trainpool_ml_augmented.csv"))
+    feature_csvs.append(REPO / "data" / "trainpool_ml_augmented.csv")
 
     # Run-local feature banks.
     feature_csvs.extend(sorted(nogate_root.glob("al*/pool_trainval.csv")))

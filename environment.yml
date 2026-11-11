@@ -1,11 +1,11 @@
+# Environment used for the official active-learning runs (OFFICIAL-RUNS/):
+# Python 3.8.10 venv on the Alliance cluster nibi. The cluster wheels were
+# Compute Canada builds (+computecanada) of the same version numbers.
 name: delta-ml-al
 channels:
   - conda-forge
 dependencies:
-  - python=3.8
-  - numpy=1.24.4
-  - pandas=1.5.3
-  - scikit-learn=1.3.2
-  - scipy
-  - matplotlib
-  - joblib
+  - python=3.8.10
+  - pip
+  - pip:
+      - -r requirements.txt

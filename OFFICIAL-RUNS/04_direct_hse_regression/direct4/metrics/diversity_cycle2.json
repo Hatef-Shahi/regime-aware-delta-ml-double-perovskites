@@ -2,8 +2,8 @@
   "cycle": 2,
   "k_gate": 2,
   "k_reg": 5,
-  "mean_dist": 15.37015842946181,
-  "median_dist": 15.135237788313175,
+  "mean_dist": 13.141360403476202,
+  "median_dist": 13.747883200243695,
   "min_dist": 5.63690856277983,
   "n": 7,
   "n_selected": 7

@@ -1,0 +1,2 @@
+n_points,n_narrow_gap_region,n_narrow_gap_low_moderate_sigma,n_useful_gap_window,n_useful_gap_low_moderate_sigma,sigma_cutoff,narrow_min,narrow_max,visible_min,visible_max,sigma_quantile
+348,73,0,84,84,0.271258644371707,0.05,1.0,1.0,2.5,0.75

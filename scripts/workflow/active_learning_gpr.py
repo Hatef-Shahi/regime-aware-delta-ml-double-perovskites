@@ -283,12 +283,18 @@ def load_or_create_fixed_val_ids(
     status_col: str,
     hse_col: str,
     metal_thr_ev: float,
+    cycle: int,
     val_size: int = 30,
     salt: str = "val_v3",
 ) -> List[str]:
     """
     Load a fixed VAL id list from outdir/val_ids.csv (or legacy phase2_val_ids.csv),
     or deterministically create it by stratifying on HSE bins (trusted labels only).
+
+    A new VAL list is created only at cycle 0. At any later cycle a missing file
+    raises FileNotFoundError, because a list re-created from the grown ledger
+    would differ from the one used so far. A file that exists but holds no IDs
+    raises ValueError, because an empty list would exclude nothing from training.
 
     Determinism: stable_hash_int(id, salt) ordering within each bin.
     """
@@ -301,8 +307,17 @@ def load_or_create_fixed_val_ids(
             else:
                 ids = df.iloc[:, 0].astype(str).str.strip().tolist()
             ids = [s for s in ids if s]
+            if not ids:
+                raise ValueError(f"[val] VAL id file holds no IDs: {vp}")
             log(f"[val] loaded fixed VAL ids: n={len(ids)} from {vp}")
             return ids
+
+    if int(cycle) != 0:
+        raise FileNotFoundError(
+            f"[val] no VAL id file in {outdir} at cycle {int(cycle)} "
+            f"(tried: {', '.join(v.name for v in val_paths)}); "
+            "a VAL list is created only at cycle 0"
+        )
 
     safe_mkdir(outdir)
 
@@ -936,7 +951,7 @@ def cmd_select(args) -> None:
     
     def _parse_pbe_from_log(fp: Path):
         """
-        AMP2 band_GGA/Band_gap.log patterns:
+        the DFT workflow's band_GGA/Band_gap.log patterns:
           - "This system is metallic." => 0.0
           - "Band gap: X eV" => X
         """
@@ -1267,6 +1282,7 @@ def cmd_select(args) -> None:
         status_col=args.status_col,
         hse_col=args.hse_col,
         metal_thr_ev=float(args.metal_thr_ev),
+        cycle=int(args.cycle),
         val_size=30,
         salt="val_v3",
     )
@@ -2234,7 +2250,7 @@ def cmd_select(args) -> None:
         eps=1e-12,
     )
     
-    # Gate uncertainty (only meaningful for PBE0) — keep for Stage-C only
+    # Gate uncertainty (only meaningful for PBE0); keep for Stage-C only
     u_gate = np.asarray(entropy_gate, dtype=float)
     
     # Composite reg uncertainty (kept for auditing)

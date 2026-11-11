@@ -1,0 +1,8 @@
+quantity,value
+retained_theta,0.16
+retained_end2end_hse_MAE,0.2261681008847317
+retained_delta_MAE_non_ZBG,0.0920668376850491
+best_end2end_theta,0.18
+best_end2end_hse_MAE,0.2239954249798389
+best_delta_theta,0.16
+best_delta_MAE_non_ZBG,0.0920668376850491

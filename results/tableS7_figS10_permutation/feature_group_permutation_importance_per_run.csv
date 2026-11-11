@@ -1,0 +1,51 @@
+run,branch,metric,feature_group,baseline_metric,importance_mean,importance_std_within_run,n_eval,n_features
+al1,Gate classifier,AUC decrease,Global structure / symmetry,1.0,0.003999999999999999,0.019794866372215735,7,10
+al1,Gate classifier,AUC decrease,Elemental chemistry,1.0,0.10399999999999998,0.08320125587749164,7,42
+al1,Gate classifier,AUC decrease,Oxidation / ionic-radius descriptors,1.0,0.29400000000000004,0.2226097527980666,7,24
+al1,Gate classifier,AUC decrease,Local coordination / distortion,1.0,0.15199999999999997,0.10736168130317678,7,29
+al1,Gate classifier,AUC decrease,DOS near Fermi level,1.0,0.0,0.0,7,7
+al1,Δ-regression,Δ-MAE increase / eV,Baseline PBE electronic,0.11759950402786978,0.00025089822110481273,0.0009631488672472596,23,2
+al1,Δ-regression,Δ-MAE increase / eV,Global structure / symmetry,0.11759950402786978,0.0018641749917891522,0.0009382005105193324,23,10
+al1,Δ-regression,Δ-MAE increase / eV,Elemental chemistry,0.11759950402786978,0.1390883617500732,0.027058083804124913,23,42
+al1,Δ-regression,Δ-MAE increase / eV,Oxidation / ionic-radius descriptors,0.11759950402786978,0.15745887892531896,0.03798863103453449,23,24
+al1,Δ-regression,Δ-MAE increase / eV,Local coordination / distortion,0.11759950402786978,-3.39804566695745e-06,1.1464440493332644e-05,23,29
+al2,Gate classifier,AUC decrease,Global structure / symmetry,0.8,-0.033999999999999975,0.09606545387688246,7,10
+al2,Gate classifier,AUC decrease,Elemental chemistry,0.8,0.14200000000000002,0.20512813317633483,7,42
+al2,Gate classifier,AUC decrease,Oxidation / ionic-radius descriptors,0.8,-0.05799999999999996,0.11795883059053151,7,24
+al2,Gate classifier,AUC decrease,Local coordination / distortion,0.8,0.12800000000000003,0.09267014137272486,7,29
+al2,Gate classifier,AUC decrease,DOS near Fermi level,0.8,0.0,0.0,7,7
+al2,Δ-regression,Δ-MAE increase / eV,Baseline PBE electronic,0.15377846676946713,0.00017454345425585327,6.983107094194321e-05,23,2
+al2,Δ-regression,Δ-MAE increase / eV,Global structure / symmetry,0.15377846676946713,0.019438822365751392,0.0087416588661168,23,10
+al2,Δ-regression,Δ-MAE increase / eV,Elemental chemistry,0.15377846676946713,0.08716229036269843,0.02362044042627512,23,42
+al2,Δ-regression,Δ-MAE increase / eV,Oxidation / ionic-radius descriptors,0.15377846676946713,0.09883470410810143,0.03368910693835677,23,24
+al2,Δ-regression,Δ-MAE increase / eV,Local coordination / distortion,0.15377846676946713,-0.00010860681836639518,0.0005556508070562717,23,29
+al3,Gate classifier,AUC decrease,Global structure / symmetry,1.0,0.003999999999999999,0.028284271247461894,7,10
+al3,Gate classifier,AUC decrease,Elemental chemistry,1.0,0.25799999999999995,0.17153568082448145,7,42
+al3,Gate classifier,AUC decrease,Oxidation / ionic-radius descriptors,1.0,0.18199999999999997,0.13505856628341134,7,24
+al3,Gate classifier,AUC decrease,Local coordination / distortion,1.0,0.14599999999999996,0.07059513771774761,7,29
+al3,Gate classifier,AUC decrease,DOS near Fermi level,1.0,0.0,0.0,7,7
+al3,Δ-regression,Δ-MAE increase / eV,Baseline PBE electronic,0.14426984798347386,-3.9132640226556825e-05,9.857210304702641e-05,23,2
+al3,Δ-regression,Δ-MAE increase / eV,Global structure / symmetry,0.14426984798347386,0.009974931465252091,0.009898171341840801,23,10
+al3,Δ-regression,Δ-MAE increase / eV,Elemental chemistry,0.14426984798347386,0.10659742342846551,0.021649326964131202,23,42
+al3,Δ-regression,Δ-MAE increase / eV,Oxidation / ionic-radius descriptors,0.14426984798347386,0.13343122526907256,0.021581266218128607,23,24
+al3,Δ-regression,Δ-MAE increase / eV,Local coordination / distortion,0.14426984798347386,-0.01280494747459053,0.007943827965174623,23,29
+al4,Gate classifier,AUC decrease,Global structure / symmetry,1.0,0.0019999999999999996,0.014142135623730949,7,10
+al4,Gate classifier,AUC decrease,Elemental chemistry,1.0,0.36800000000000005,0.1910657542548627,7,42
+al4,Gate classifier,AUC decrease,Oxidation / ionic-radius descriptors,1.0,0.019999999999999997,0.06388765649999399,7,24
+al4,Gate classifier,AUC decrease,Local coordination / distortion,1.0,0.015999999999999997,0.042185208743523994,7,29
+al4,Gate classifier,AUC decrease,DOS near Fermi level,1.0,0.0,0.0,7,7
+al4,Δ-regression,Δ-MAE increase / eV,Baseline PBE electronic,0.13883178408507757,4.216596305206544e-07,1.258125912552537e-06,23,2
+al4,Δ-regression,Δ-MAE increase / eV,Global structure / symmetry,0.13883178408507757,0.004077271826344075,0.004259252977117091,23,10
+al4,Δ-regression,Δ-MAE increase / eV,Elemental chemistry,0.13883178408507757,0.10354087898223155,0.01750123310342789,23,42
+al4,Δ-regression,Δ-MAE increase / eV,Oxidation / ionic-radius descriptors,0.13883178408507757,0.14040170867314894,0.02337394841338323,23,24
+al4,Δ-regression,Δ-MAE increase / eV,Local coordination / distortion,0.13883178408507757,-0.008975164411977866,0.00897507225013482,23,29
+al5,Gate classifier,AUC decrease,Global structure / symmetry,1.0,0.045999999999999985,0.06131218209678552,7,10
+al5,Gate classifier,AUC decrease,Elemental chemistry,1.0,0.118,0.12887266298678757,7,42
+al5,Gate classifier,AUC decrease,Oxidation / ionic-radius descriptors,1.0,0.17800000000000002,0.14885961061842595,7,24
+al5,Gate classifier,AUC decrease,Local coordination / distortion,1.0,0.23199999999999998,0.10190031142929722,7,29
+al5,Gate classifier,AUC decrease,DOS near Fermi level,1.0,0.0,0.0,7,7
+al5,Δ-regression,Δ-MAE increase / eV,Baseline PBE electronic,0.17195109191414898,6.465290924390077e-07,6.235293902612154e-07,23,2
+al5,Δ-regression,Δ-MAE increase / eV,Global structure / symmetry,0.17195109191414898,-0.0006415755854371153,0.002068804148624584,23,10
+al5,Δ-regression,Δ-MAE increase / eV,Elemental chemistry,0.17195109191414898,0.07436782055795219,0.028778764426146033,23,42
+al5,Δ-regression,Δ-MAE increase / eV,Oxidation / ionic-radius descriptors,0.17195109191414898,0.08480285950107086,0.03324603669654113,23,24
+al5,Δ-regression,Δ-MAE increase / eV,Local coordination / distortion,0.17195109191414898,-0.0017654263593357494,0.003796901132847639,23,29

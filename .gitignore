@@ -16,6 +16,6 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Run-time scratch — not reported results, safe to exclude
+# Run-time scratch (not reported results; safe to exclude)
 **/tmp/
 **/logs/

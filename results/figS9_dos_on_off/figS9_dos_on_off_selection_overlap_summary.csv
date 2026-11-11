@@ -1,0 +1,6 @@
+run,identical_cycles,compared_cycles,mean_overlap_count,mean_overlap_fraction
+al1,0,25,0.72,0.10285714285714284
+al2,0,25,1.08,0.15428571428571428
+al3,0,25,0.84,0.12
+al4,0,25,1.36,0.19428571428571428
+al5,0,25,0.72,0.10285714285714284

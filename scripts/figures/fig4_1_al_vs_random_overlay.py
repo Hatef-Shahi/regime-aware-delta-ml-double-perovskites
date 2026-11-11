@@ -42,6 +42,7 @@ Example:
 from __future__ import annotations
 
 import argparse
+import os
 import json
 import re
 from pathlib import Path
@@ -396,7 +397,7 @@ def df_to_md_table(df: pd.DataFrame) -> str:
         for c in headers:
             v = row[c]
             if isinstance(v, float):
-                vals.append(f"{v:.6g}" if np.isfinite(v) else "—")
+                vals.append(f"{v:.6g}" if np.isfinite(v) else "n/a")
             else:
                 vals.append(str(v))
         lines.append("| " + " | ".join(vals) + " |")
@@ -690,9 +691,9 @@ def main() -> int:
     plt.close(fig)
 
     metadata = {
-        "root": str(root),
-        "al_dir": str(al_base),
-        "random_dir": str(rnd_base),
+        "root": os.path.relpath(str(root)),
+        "al_dir": os.path.relpath(str(al_base)),
+        "random_dir": os.path.relpath(str(rnd_base)),
         "al_glob": args.al_glob,
         "random_glob": args.random_glob,
         "n_al_runs": len(al_run_dirs),

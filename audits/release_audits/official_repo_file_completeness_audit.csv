@@ -14,8 +14,8 @@ random_quota,OFFICIAL-RUNS/03_random_quota_matched/random2,True,True,True,True,2
 random_quota,OFFICIAL-RUNS/03_random_quota_matched/random3,True,True,True,True,25,25,True,0.3266708169948122,0.2224641748941997
 random_quota,OFFICIAL-RUNS/03_random_quota_matched/random4,True,True,True,True,25,25,True,0.2741216807139562,0.1489099612823335
 random_quota,OFFICIAL-RUNS/03_random_quota_matched/random5,True,True,True,True,25,25,True,0.2493985735441325,0.1087740212664874
-direct_hse,OFFICIAL-RUNS/04_direct_hse_regression/direct1,True,True,True,True,25,25,True,0.6026268690602237,0.5381844427988721
-direct_hse,OFFICIAL-RUNS/04_direct_hse_regression/direct2,True,True,True,True,25,25,True,0.4537247357700675,0.3643461798807926
-direct_hse,OFFICIAL-RUNS/04_direct_hse_regression/direct3,True,True,True,True,25,25,True,0.6069699469163837,0.5673359958336469
-direct_hse,OFFICIAL-RUNS/04_direct_hse_regression/direct4,True,True,True,True,29,29,True,0.5590359591230593,0.5136001467899522
-direct_hse,OFFICIAL-RUNS/04_direct_hse_regression/direct5,True,True,True,True,25,25,True,0.5358673913129509,0.5201735895062259
+direct_hse,OFFICIAL-RUNS/04_direct_hse_regression/direct1,True,True,True,True,25,25,True,0.4677087230100343,0.5096945506674424
+direct_hse,OFFICIAL-RUNS/04_direct_hse_regression/direct2,True,True,True,True,25,25,True,0.4437684844429476,0.4494649289828562
+direct_hse,OFFICIAL-RUNS/04_direct_hse_regression/direct3,True,True,True,True,25,25,True,0.5447626510725799,0.6304268594851318
+direct_hse,OFFICIAL-RUNS/04_direct_hse_regression/direct4,True,True,True,True,26,26,True,0.4761123188391239,0.4709815572984454
+direct_hse,OFFICIAL-RUNS/04_direct_hse_regression/direct5,True,True,True,True,25,25,True,0.5292287352177282,0.5357416616897416

@@ -1,0 +1,2 @@
+cycle,n_validation_points,spearman_uncertainty_error,coverage_1sigma,coverage_2sigma,mean_abs_delta_error,median_abs_delta_error
+24,96,0.38220293000542593,0.53125,0.78125,0.0969065596269404,0.05779148641568166

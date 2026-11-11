@@ -1,0 +1,6 @@
+quantity,value,n
+"GPR delta MAE, compositions with >1 polymorph, random",0.06691833647144656,107.0
+"GPR delta MAE, compositions with >1 polymorph, composition",0.07507783573326719,107.0
+"GPR_ARD delta median absolute error, composition",0.058402599169256,
+"GBR delta median absolute error, composition",0.0828182520913243,
+composition folds with GBR MAE < GPR MAE,7.0,15.0

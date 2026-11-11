@@ -278,6 +278,8 @@ def main() -> None:
     ap.add_argument("--test", default="test_labels_labeled.csv")
     ap.add_argument("--dos", default="dos_from_output.csv")
     ap.add_argument("--cycle", type=int, default=None)
+    ap.add_argument("--out-dir", default="",
+                    help="output folder (default: <run-dir>/test_eval)")
     args = ap.parse_args()
 
     run_dir = Path(args.run_dir)
@@ -474,7 +476,7 @@ def main() -> None:
         else float("nan")
     )
 
-    outdir = run_dir / "test_eval"
+    outdir = Path(args.out_dir) if args.out_dir else run_dir / "test_eval"
     outdir.mkdir(parents=True, exist_ok=True)
 
     pred = pd.DataFrame({
