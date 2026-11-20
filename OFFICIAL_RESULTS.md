@@ -24,7 +24,7 @@ two-regime quota but scores candidates at random within each regime. Its source 
 were stored under a DOS-off run root on the cluster because random acquisition does
 not use the DOS term; this is a storage name only.
 
-Arm 04 in this release (v1.1.0) contains the direct-HSE runs whose seeds and validation
+Since v1.1.0, arm 04 contains the direct-HSE runs whose seeds and validation
 sets match those of arm 01 and which give the values in the revised ESI (Table S2:
 end-to-end validation MAE 0.492 ± 0.043 eV, non-ZBG MAE 0.519 ± 0.071 eV,
 R² 0.809 ± 0.053, RMSE 0.681 ± 0.062 eV at cycle 24). It replaces the arm-04 folders of

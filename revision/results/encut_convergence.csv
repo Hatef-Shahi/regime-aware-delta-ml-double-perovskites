@@ -1,0 +1,5 @@
+structure,space_group,encut0_eV,gap_encut0,gap_plus100,gap_plus200,max_abs_change
+Be2AlAsO6,Fm-3m,450,0.0782,0.0760,0.0770,0.0022
+Ca2RhSbO6,I4/m,450,0.2005,0.2003,0.2008,0.0003
+Cd2AsInO6,R-3,500,0.3113,0.3117,0.3132,0.0019
+Li2MoPtO6,P2_1/c,450,0.4410,0.4410,0.4415,0.0005

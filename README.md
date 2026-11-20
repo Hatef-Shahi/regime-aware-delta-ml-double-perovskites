@@ -15,8 +15,8 @@ to be semiconductors at the HSE06 level are passed to a separate rescued branch
 instead of being discarded. HSE06 labels are acquired over 24 active-learning cycles
 of seven structures each.
 
-This is release v1.1.0, prepared for the revised manuscript. The changes relative to
-v1.0.0 are listed in the release notes.
+This is release v1.1.1, prepared for the revised manuscript. The changes relative to
+v1.1.0 are listed in the release notes.
 
 ## Repository layout
 
@@ -128,7 +128,7 @@ values behind it.
 | Fig. 4, Table S14 (uncertainty diagnostics) | `scripts/figures/fig_nonzbg_uncertainty_main.py` | `results/fig4_tableS14_uncertainty/` |
 | Fig. 5 (remaining pool) | `scripts/figures/fig_remaining_pool_hse_vs_uncertainty.py` | `results/fig5_remaining_pool/` |
 | Table 2 (cost) | `revision/scripts/universe_counts.py` and the cycle-23 ledgers | printed |
-| Table 3, Table S23 (candidates) | `scripts/figures/make_remaining_pool_candidate_table.py` | `results/table3_tableS23_remaining_pool/` |
+| Table 3, Table S24 (candidates) | `scripts/figures/make_remaining_pool_candidate_table.py` | `results/table3_tableS23_remaining_pool/` |
 | Figs. S1 to S3 (feasibility map, element frequencies) | script not included in this release (the candidate-generation code computes t and μ but does not draw these figures) | |
 | Fig. S4 (Glazer space groups) | `revision/scripts/make_figs.py` | `revision/results/figures/` |
 | Fig. S5 (crystal-system examples) | hand-made, no script | |
@@ -149,10 +149,21 @@ values behind it.
 | Post hoc threshold audit (ESI Section 4) | `scripts/audits/audit_gate_threshold_false_rescues.py` | `audits/gate_threshold_false_rescues/` |
 | Table S11 (gate-training composition) | cycle-23 ledgers minus `phase2_val_ids.csv` of each arm-01 replicate | |
 | Tables S18, S19 (VASP settings) | archived VASP inputs; not a data product | |
-| Tables S20 to S22 (k-points, SOC, Hubbard U) | additional PBE calculations, deposited as tables | `revision/results/` |
+| Tables S20 to S23 (k-points, plane-wave cutoff, SOC, Hubbard U) | additional PBE and HSE06 calculations, deposited as tables | `revision/results/` |
+| HSE06 references of the 20 shortlisted candidates (Table 3, Section 2.5) | `revision/results/shortlist_hse06_check.csv` | `revision/results/` |
 
 The sensitivity sweeps of Figs. S11 to S13 were run with a single representative
 configuration each; `SENSITIVITY-RUNS/` holds only their `metrics/metrics.csv`.
+The deposited active-learning driver `scripts/workflow/active_learning_gpr.py` fixes the selector
+values m_reg = 6 and q_floor = 0.35 in the code. For the Fig. S12 sweep these two
+values were edited by hand in the driver for each run; the shortlist of m_reg x K_r
+candidates is built first and q_floor is applied within it. The sweep runs kept only
+their metrics, so their per-cycle selections are not deposited.
+
+The HSE06 references in `revision/results/shortlist_hse06_check.csv` come from the
+label ledgers of the other runs of this study (arms 01 to 05), computed with the same
+workflow and settings; they are not new calculations. The `labelled_in` column lists
+the runs that labelled each structure.
 
 ## File formats
 
@@ -204,12 +215,13 @@ Stage B and Stage C regressors, scalers and fill values), and
 The DFT workflow behind the data is described in Methods and ESI Section 6 of the
 revised paper. In short, each structure was relaxed spin-polarised with PBE, a
 self-consistent PBE single point wrote the charge density, and a non-self-consistent
-band-structure run on 132 high-symmetry k-points gave the PBE bandgap and the DOS
+band-structure run on an explicit high-symmetry k-point path (median 410 points per
+structure) gave the PBE bandgap and the DOS
 descriptors. No separate tetrahedron-method DOS calculation was made; the DOS
 descriptors come from this band-structure run. For 55 structures the workflow applied
 its default Hubbard U in the PBE steps, while all HSE06 reference calculations were
 run without U, so for these structures the learned target is HSE06 minus PBE+U (ESI
-Table S22). The Stage-B regressor is a GPR with an ARD Matérn kernel (ν = 5/2) plus a
+Table S23). The Stage-B regressor is a GPR with an ARD Matérn kernel (ν = 5/2) plus a
 white-noise term, with hyperparameters optimised at every cycle.
 
 ## Licence

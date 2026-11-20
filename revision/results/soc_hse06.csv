@@ -1,0 +1,4 @@
+structure,hse06_eV,hse06_soc_eV,shift_hse06_eV,pbe_eV,pbe_soc_eV,shift_pbe_eV
+Tl2GeMoO6_Fm-3m,0.6708,0.6518,-0.0190,0.0503,0.0300,-0.0203
+Ca2PtSiO6_Fm-3m,1.6607,1.7862,0.1255,0.1506,0.3145,0.1639
+Ba2PbWO6_Fm-3m,2.4822,2.3505,-0.1317,1.5325,1.4513,-0.0812
